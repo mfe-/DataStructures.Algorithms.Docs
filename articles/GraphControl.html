@@ -1,0 +1,153 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>DataStructures.UI </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="DataStructures.UI ">
+    <meta name="generator" content="docfx 2.57.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="datastructuresui">DataStructures.UI</h1>
+
+<p><img src="http://i.imgur.com/4WS122c.gif" alt="alt tag"></p>
+<p>Contains a WPF control to visualize a graph.
+Use <code>DataStructures.UI.sln</code> and set <code>UI\DataStructures.Demo</code> as start up project to work with the <code>GraphControl</code>.</p>
+<ul>
+<li>right click on the graph control to call the context menu</li>
+<li>Use right click / context menu / clear / to initialize a new graph instance</li>
+<li>Double click on the graph control to create a new vertex</li>
+<li>Double click on the vertex (or right click on the vertex edit) to call the underlying vertex command (see <code>CommandOnDoubleClick</code>)</li>
+<li>Click on the vertex to focus on it</li>
+<li>When the vertex is in focus, click on one of the four adorner elements and move the mouse to the vertex you want to connect</li>
+<li>To remove an edge, click on the edge to set the focus, press <code>DEL</code></li>
+<li>To remove an vertex, click on the vertex to set the focus, press <code>DEL</code> (First delete all edges for this to work)</li>
+</ul>
+<h3 id="set-up-a-vertexcontrol">Set up a VertexControl</h3>
+<ul>
+<li>For a <code>VertexControl</code> you can set up a command which should be executed on a double click. (see <code>CommandOnDoubleClick</code>)</li>
+<li>You can set up a <code>ContextMenu</code></li>
+<li>Set up the visualisation of your vertex data with a <code>DataTemplate</code>. See next topic.</li>
+</ul>
+<h4 id="datatemplate">DataTemplate</h4>
+<p>The vertex contains a generic data property <code>Value</code>. For this property a <code>DataTemplate</code> can be configured on the <code>VertexControl</code> style.
+Apply your <code>DataTemplate</code> to the <code>ItemTemplate</code> DP to represent the Data of the vertex individually.</p>
+<pre><code>  &lt;Style TargetType=&quot;{x:Type ui:VertexControl}&quot;&gt;
+      &lt;Setter Property=&quot;Width&quot; Value=&quot;100&quot; /&gt;
+      &lt;Setter Property=&quot;Height&quot; Value=&quot;100&quot; /&gt;
+      &lt;Setter Property=&quot;Background&quot; Value=&quot;#fff299&quot; /&gt;
+      &lt;Setter Property=&quot;CommandOnDoubleClick&quot; Value=&quot;{Binding Path=DataContext.ClickCommand,Source={x:Reference dockPanel},UpdateSourceTrigger=Default}&quot; /&gt;
+      &lt;Setter Property=&quot;ContextMenu&quot; Value=&quot;{StaticResource ContextMenu}&quot; /&gt;
+      &lt;Setter Property=&quot;ItemTemplate&quot;&gt;
+          &lt;Setter.Value&gt;
+              &lt;DataTemplate&gt;
+                  &lt;StackPanel Orientation=&quot;Vertical&quot; Background=&quot;Yellow&quot; 
+                              VerticalAlignment=&quot;Stretch&quot; HorizontalAlignment=&quot;Stretch&quot;
+                              ToolTip=&quot;{Binding Path=Value.Description,UpdateSourceTrigger=PropertyChanged}&quot;&gt;
+  
+                      &lt;TextBlock Text=&quot;{Binding Path=Value.MethodNameTyp,UpdateSourceTrigger=PropertyChanged}&quot; TextWrapping=&quot;Wrap&quot; /&gt;
+                  &lt;/StackPanel&gt;
+              &lt;/DataTemplate&gt;
+          &lt;/Setter.Value&gt;
+      &lt;/Setter&gt;
+  &lt;/Style&gt;
+</code></pre>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/mfe-/DataStructures.Algorithms/blob/master/docs/articles/GraphControl.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

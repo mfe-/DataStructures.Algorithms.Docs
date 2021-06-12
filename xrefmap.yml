@@ -1,0 +1,134 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: Mathematics
+  name: Mathematics
+  href: api/Mathematics.html
+  commentId: N:Mathematics
+  fullName: Mathematics
+  nameWithType: Mathematics
+- uid: Mathematics.Mathematics
+  name: Mathematics
+  href: api/Mathematics.Mathematics.html
+  commentId: T:Mathematics.Mathematics
+  fullName: Mathematics.Mathematics
+  nameWithType: Mathematics
+- uid: Mathematics.Mathematics.gcd(System.Int32,System.Int32)
+  name: gcd(Int32, Int32)
+  href: api/Mathematics.Mathematics.html#Mathematics_Mathematics_gcd_System_Int32_System_Int32_
+  commentId: M:Mathematics.Mathematics.gcd(System.Int32,System.Int32)
+  fullName: Mathematics.Mathematics.gcd(System.Int32, System.Int32)
+  nameWithType: Mathematics.gcd(Int32, Int32)
+- uid: Mathematics.Mathematics.gcd*
+  name: gcd
+  href: api/Mathematics.Mathematics.html#Mathematics_Mathematics_gcd_
+  commentId: Overload:Mathematics.Mathematics.gcd
+  isSpec: "True"
+  fullName: Mathematics.Mathematics.gcd
+  nameWithType: Mathematics.gcd
+- uid: Mathematics.Mathematics.gcd2(System.Int32,System.Int32)
+  name: gcd2(Int32, Int32)
+  href: api/Mathematics.Mathematics.html#Mathematics_Mathematics_gcd2_System_Int32_System_Int32_
+  commentId: M:Mathematics.Mathematics.gcd2(System.Int32,System.Int32)
+  fullName: Mathematics.Mathematics.gcd2(System.Int32, System.Int32)
+  nameWithType: Mathematics.gcd2(Int32, Int32)
+- uid: Mathematics.Mathematics.gcd2*
+  name: gcd2
+  href: api/Mathematics.Mathematics.html#Mathematics_Mathematics_gcd2_
+  commentId: Overload:Mathematics.Mathematics.gcd2
+  isSpec: "True"
+  fullName: Mathematics.Mathematics.gcd2
+  nameWithType: Mathematics.gcd2
+- uid: Mathematics.Matrix
+  name: Matrix
+  href: api/Mathematics.Matrix.html
+  commentId: T:Mathematics.Matrix
+  fullName: Mathematics.Matrix
+  nameWithType: Matrix
+- uid: Mathematics.Matrix.#ctor(System.Int32,System.Int32)
+  name: Matrix(Int32, Int32)
+  href: api/Mathematics.Matrix.html#Mathematics_Matrix__ctor_System_Int32_System_Int32_
+  commentId: M:Mathematics.Matrix.#ctor(System.Int32,System.Int32)
+  fullName: Mathematics.Matrix.Matrix(System.Int32, System.Int32)
+  nameWithType: Matrix.Matrix(Int32, Int32)
+- uid: Mathematics.Matrix.#ctor(System.Int32[][])
+  name: Matrix(Int32[][])
+  href: api/Mathematics.Matrix.html#Mathematics_Matrix__ctor_System_Int32_____
+  commentId: M:Mathematics.Matrix.#ctor(System.Int32[][])
+  name.vb: Matrix(Int32()())
+  fullName: Mathematics.Matrix.Matrix(System.Int32[][])
+  fullName.vb: Mathematics.Matrix.Matrix(System.Int32()())
+  nameWithType: Matrix.Matrix(Int32[][])
+  nameWithType.vb: Matrix.Matrix(Int32()())
+- uid: Mathematics.Matrix.#ctor*
+  name: Matrix
+  href: api/Mathematics.Matrix.html#Mathematics_Matrix__ctor_
+  commentId: Overload:Mathematics.Matrix.#ctor
+  isSpec: "True"
+  fullName: Mathematics.Matrix.Matrix
+  nameWithType: Matrix.Matrix
+- uid: Mathematics.Matrix.Equals(System.Object)
+  name: Equals(Object)
+  href: api/Mathematics.Matrix.html#Mathematics_Matrix_Equals_System_Object_
+  commentId: M:Mathematics.Matrix.Equals(System.Object)
+  fullName: Mathematics.Matrix.Equals(System.Object)
+  nameWithType: Matrix.Equals(Object)
+- uid: Mathematics.Matrix.Equals*
+  name: Equals
+  href: api/Mathematics.Matrix.html#Mathematics_Matrix_Equals_
+  commentId: Overload:Mathematics.Matrix.Equals
+  isSpec: "True"
+  fullName: Mathematics.Matrix.Equals
+  nameWithType: Matrix.Equals
+- uid: Mathematics.Matrix.m
+  name: m
+  href: api/Mathematics.Matrix.html#Mathematics_Matrix_m
+  commentId: P:Mathematics.Matrix.m
+  fullName: Mathematics.Matrix.m
+  nameWithType: Matrix.m
+- uid: Mathematics.Matrix.m*
+  name: m
+  href: api/Mathematics.Matrix.html#Mathematics_Matrix_m_
+  commentId: Overload:Mathematics.Matrix.m
+  isSpec: "True"
+  fullName: Mathematics.Matrix.m
+  nameWithType: Matrix.m
+- uid: Mathematics.Matrix.n
+  name: n
+  href: api/Mathematics.Matrix.html#Mathematics_Matrix_n
+  commentId: P:Mathematics.Matrix.n
+  fullName: Mathematics.Matrix.n
+  nameWithType: Matrix.n
+- uid: Mathematics.Matrix.n*
+  name: n
+  href: api/Mathematics.Matrix.html#Mathematics_Matrix_n_
+  commentId: Overload:Mathematics.Matrix.n
+  isSpec: "True"
+  fullName: Mathematics.Matrix.n
+  nameWithType: Matrix.n
+- uid: Mathematics.Matrix.op_Addition(Mathematics.Matrix,Mathematics.Matrix)
+  name: Addition(Matrix, Matrix)
+  href: api/Mathematics.Matrix.html#Mathematics_Matrix_op_Addition_Mathematics_Matrix_Mathematics_Matrix_
+  commentId: M:Mathematics.Matrix.op_Addition(Mathematics.Matrix,Mathematics.Matrix)
+  fullName: Mathematics.Matrix.Addition(Mathematics.Matrix, Mathematics.Matrix)
+  nameWithType: Matrix.Addition(Matrix, Matrix)
+- uid: Mathematics.Matrix.op_Addition*
+  name: Addition
+  href: api/Mathematics.Matrix.html#Mathematics_Matrix_op_Addition_
+  commentId: Overload:Mathematics.Matrix.op_Addition
+  isSpec: "True"
+  fullName: Mathematics.Matrix.Addition
+  nameWithType: Matrix.Addition
+- uid: Mathematics.Matrix.ToString
+  name: ToString()
+  href: api/Mathematics.Matrix.html#Mathematics_Matrix_ToString
+  commentId: M:Mathematics.Matrix.ToString
+  fullName: Mathematics.Matrix.ToString()
+  nameWithType: Matrix.ToString()
+- uid: Mathematics.Matrix.ToString*
+  name: ToString
+  href: api/Mathematics.Matrix.html#Mathematics_Matrix_ToString_
+  commentId: Overload:Mathematics.Matrix.ToString
+  isSpec: "True"
+  fullName: Mathematics.Matrix.ToString
+  nameWithType: Matrix.ToString
