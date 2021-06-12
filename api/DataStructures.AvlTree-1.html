@@ -1,0 +1,835 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class AvlTree&lt;TData&gt;
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class AvlTree&lt;TData&gt;
+   ">
+    <meta name="generator" content="docfx 2.58.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="DataStructures.AvlTree`1">
+  
+  
+  <h1 id="DataStructures_AvlTree_1" data-uid="DataStructures.AvlTree`1" class="text-break">Class AvlTree&lt;TData&gt;
+  </h1>
+  <div class="markdown level0 summary"><p>AVL Tree
+Recommended for tasks which require a lot of lookups and less rebalancing.
+If the majority of operations of the tree are insertions or deletions and worst-case orders are not expected
+it's recommended to use <a class="xref" href="DataStructures.BinarySearchTree-1.html">BinarySearchTree&lt;TData&gt;</a>
+Check also the AVLTreeTest</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="DataStructures.AbstractTree-2.html">AbstractTree</a>&lt;<a class="xref" href="DataStructures.INodeTree-1.html">INodeTree</a>&lt;TData&gt;, TData&gt;</div>
+    <div class="level2"><span class="xref">AvlTree&lt;TData&gt;</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="DataStructures.AbstractTree-2.html#DataStructures_AbstractTree_2_RootNode">AbstractTree&lt;INodeTree&lt;TData&gt;, TData&gt;.RootNode</a>
+    </div>
+    <div>
+      <a class="xref" href="DataStructures.AbstractTree-2.html#DataStructures_AbstractTree_2_FuncNodeFactory">AbstractTree&lt;INodeTree&lt;TData&gt;, TData&gt;.FuncNodeFactory</a>
+    </div>
+    <div>
+      <a class="xref" href="DataStructures.AbstractTree-2.html#DataStructures_AbstractTree_2_Empty">AbstractTree&lt;INodeTree&lt;TData&gt;, TData&gt;.Empty</a>
+    </div>
+    <div>
+      <a class="xref" href="DataStructures.AbstractTree-2.html#DataStructures_AbstractTree_2_Count">AbstractTree&lt;INodeTree&lt;TData&gt;, TData&gt;.Count</a>
+    </div>
+    <div>
+      <a class="xref" href="DataStructures.AbstractTree-2.html#DataStructures_AbstractTree_2_Add_System_IComparable__1_">AbstractTree&lt;INodeTree&lt;TData&gt;, TData&gt;.Add(IComparable, TData)</a>
+    </div>
+    <div>
+      <a class="xref" href="DataStructures.AbstractTree-2.html#DataStructures_AbstractTree_2_Add_System_Func__1_System_IComparable___1_">AbstractTree&lt;INodeTree&lt;TData&gt;, TData&gt;.Add(Func&lt;TData, IComparable&gt;, TData)</a>
+    </div>
+    <div>
+      <a class="xref" href="DataStructures.AbstractTree-2.html#DataStructures_AbstractTree_2_Remove_System_IComparable_">AbstractTree&lt;INodeTree&lt;TData&gt;, TData&gt;.Remove(IComparable)</a>
+    </div>
+    <div>
+      <a class="xref" href="DataStructures.AbstractTree-2.html#DataStructures_AbstractTree_2_GetNode_System_IComparable_System_Action__0__">AbstractTree&lt;INodeTree&lt;TData&gt;, TData&gt;.GetNode(IComparable, Action&lt;INodeTree&lt;TData&gt;&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="DataStructures.AbstractTree-2.html#DataStructures_AbstractTree_2_GetMinimum">AbstractTree&lt;INodeTree&lt;TData&gt;, TData&gt;.GetMinimum()</a>
+    </div>
+    <div>
+      <a class="xref" href="DataStructures.AbstractTree-2.html#DataStructures_AbstractTree_2_GetMaximum">AbstractTree&lt;INodeTree&lt;TData&gt;, TData&gt;.GetMaximum()</a>
+    </div>
+    <div>
+      <a class="xref" href="DataStructures.AbstractTree-2.html#DataStructures_AbstractTree_2_Find_System_Func__1_System_Boolean__">AbstractTree&lt;INodeTree&lt;TData&gt;, TData&gt;.Find(Func&lt;TData, Boolean&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="DataStructures.AbstractTree-2.html#DataStructures_AbstractTree_2_Find_System_Func__0_System_Boolean__">AbstractTree&lt;INodeTree&lt;TData&gt;, TData&gt;.Find(Func&lt;INodeTree&lt;TData&gt;, Boolean&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="DataStructures.AbstractTree-2.html#DataStructures_AbstractTree_2_Find__1_">AbstractTree&lt;INodeTree&lt;TData&gt;, TData&gt;.Find(TData)</a>
+    </div>
+    <div>
+      <a class="xref" href="DataStructures.AbstractTree-2.html#DataStructures_AbstractTree_2_Inorder">AbstractTree&lt;INodeTree&lt;TData&gt;, TData&gt;.Inorder()</a>
+    </div>
+    <div>
+      <a class="xref" href="DataStructures.AbstractTree-2.html#DataStructures_AbstractTree_2_Inorder__0_System_Collections_Generic_ICollection__0__">AbstractTree&lt;INodeTree&lt;TData&gt;, TData&gt;.Inorder(INodeTree&lt;TData&gt;, ICollection&lt;INodeTree&lt;TData&gt;&gt;)</a>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="DataStructures.html">DataStructures</a></h6>
+  <h6><strong>Assembly</strong>: Abstract.DataStructures.dll</h6>
+  <h5 id="DataStructures_AvlTree_1_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class AvlTree&lt;TData&gt; : AbstractTree&lt;INodeTree&lt;TData&gt;, TData&gt;</code></pre>
+  </div>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TData</span></td>
+        <td><p>The datatype which is used for storing values</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="DataStructures_AvlTree_1_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>Algorithm		Average	     Worst case
+Space            O(n)           O(n)
+Search         O(log(n))     O(log(n))
+Insert         O(log(n))     O(log(n))
+Delete         O(log(n))     O(log(n))</p>
+</div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mfe-/DataStructures.Algorithms/new/master/apiSpec/new?filename=DataStructures_AvlTree_1__ctor.md&amp;value=---%0Auid%3A%20DataStructures.AvlTree%601.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mfe-/DataStructures.Algorithms/blob/master/src/DataStructures/AvlTree{TData}.cs/#L52">View Source</a>
+  </span>
+  <a id="DataStructures_AvlTree_1__ctor_" data-uid="DataStructures.AvlTree`1.#ctor*"></a>
+  <h4 id="DataStructures_AvlTree_1__ctor" data-uid="DataStructures.AvlTree`1.#ctor">AvlTree()</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the avl tree.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AvlTree()</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mfe-/DataStructures.Algorithms/new/master/apiSpec/new?filename=DataStructures_AvlTree_1_Add_DataStructures_INodeTree__0__DataStructures_INodeTree__0__.md&amp;value=---%0Auid%3A%20DataStructures.AvlTree%601.Add(DataStructures.INodeTree%7B%600%7D%2CDataStructures.INodeTree%7B%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mfe-/DataStructures.Algorithms/blob/master/src/DataStructures/AvlTree{TData}.cs/#L77">View Source</a>
+  </span>
+  <a id="DataStructures_AvlTree_1_Add_" data-uid="DataStructures.AvlTree`1.Add*"></a>
+  <h4 id="DataStructures_AvlTree_1_Add_DataStructures_INodeTree__0__DataStructures_INodeTree__0__" data-uid="DataStructures.AvlTree`1.Add(DataStructures.INodeTree{`0},DataStructures.INodeTree{`0})">Add(INodeTree&lt;TData&gt;, INodeTree&lt;TData&gt;)</h4>
+  <div class="markdown level1 summary"><p>Inserts a node</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void Add(INodeTree&lt;TData&gt; node, INodeTree&lt;TData&gt; newNode)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DataStructures.INodeTree-1.html">INodeTree</a>&lt;TData&gt;</td>
+        <td><span class="parametername">node</span></td>
+        <td><p>parent node of the new node</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DataStructures.INodeTree-1.html">INodeTree</a>&lt;TData&gt;</td>
+        <td><span class="parametername">newNode</span></td>
+        <td><p>The new node to insert</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mfe-/DataStructures.Algorithms/new/master/apiSpec/new?filename=DataStructures_AvlTree_1_Add_System_IComparable__0_.md&amp;value=---%0Auid%3A%20DataStructures.AvlTree%601.Add(System.IComparable%2C%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mfe-/DataStructures.Algorithms/blob/master/src/DataStructures/AvlTree{TData}.cs/#L58">View Source</a>
+  </span>
+  <a id="DataStructures_AvlTree_1_Add_" data-uid="DataStructures.AvlTree`1.Add*"></a>
+  <h4 id="DataStructures_AvlTree_1_Add_System_IComparable__0_" data-uid="DataStructures.AvlTree`1.Add(System.IComparable,`0)">Add(IComparable, TData)</h4>
+  <div class="markdown level1 summary"><p>Inserts data with a key</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Add(IComparable key, TData data)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IComparable</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>The key</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">TData</span></td>
+        <td><span class="parametername">data</span></td>
+        <td><p>The data which is associated with the key</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">DataStructures.AbstractTree&lt;DataStructures.INodeTree&lt;TData&gt;, TData&gt;.Add(System.IComparable, TData)</span></div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>If the key already exists</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mfe-/DataStructures.Algorithms/new/master/apiSpec/new?filename=DataStructures_AvlTree_1_CalculateBalance_DataStructures_INodeTree__0__.md&amp;value=---%0Auid%3A%20DataStructures.AvlTree%601.CalculateBalance(DataStructures.INodeTree%7B%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mfe-/DataStructures.Algorithms/blob/master/src/DataStructures/AvlTree{TData}.cs/#L224">View Source</a>
+  </span>
+  <a id="DataStructures_AvlTree_1_CalculateBalance_" data-uid="DataStructures.AvlTree`1.CalculateBalance*"></a>
+  <h4 id="DataStructures_AvlTree_1_CalculateBalance_DataStructures_INodeTree__0__" data-uid="DataStructures.AvlTree`1.CalculateBalance(DataStructures.INodeTree{`0})">CalculateBalance(INodeTree&lt;TData&gt;)</h4>
+  <div class="markdown level1 summary"><p>Calculate the balance of the node</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CalculateBalance(INodeTree&lt;TData&gt; node)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DataStructures.INodeTree-1.html">INodeTree</a>&lt;TData&gt;</td>
+        <td><span class="parametername">node</span></td>
+        <td><p>The node on which we need to calculate the balance</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The balance value</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mfe-/DataStructures.Algorithms/new/master/apiSpec/new?filename=DataStructures_AvlTree_1_GetMaximum.md&amp;value=---%0Auid%3A%20DataStructures.AvlTree%601.GetMaximum%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mfe-/DataStructures.Algorithms/blob/master/src/DataStructures/AvlTree{TData}.cs/#L365">View Source</a>
+  </span>
+  <a id="DataStructures_AvlTree_1_GetMaximum_" data-uid="DataStructures.AvlTree`1.GetMaximum*"></a>
+  <h4 id="DataStructures_AvlTree_1_GetMaximum" data-uid="DataStructures.AvlTree`1.GetMaximum">GetMaximum()</h4>
+  <div class="markdown level1 summary"><p>Get the node with the maximum key value of the current tree</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override INodeTree&lt;TData&gt; GetMaximum()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DataStructures.INodeTree-1.html">INodeTree</a>&lt;TData&gt;</td>
+        <td><p>The Node with the maximum key value of the tree</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">DataStructures.AbstractTree&lt;DataStructures.INodeTree&lt;TData&gt;, TData&gt;.GetMaximum()</span></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mfe-/DataStructures.Algorithms/new/master/apiSpec/new?filename=DataStructures_AvlTree_1_GetMaximum_DataStructures_INodeTree__0__.md&amp;value=---%0Auid%3A%20DataStructures.AvlTree%601.GetMaximum(DataStructures.INodeTree%7B%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mfe-/DataStructures.Algorithms/blob/master/src/DataStructures/AvlTree{TData}.cs/#L374">View Source</a>
+  </span>
+  <a id="DataStructures_AvlTree_1_GetMaximum_" data-uid="DataStructures.AvlTree`1.GetMaximum*"></a>
+  <h4 id="DataStructures_AvlTree_1_GetMaximum_DataStructures_INodeTree__0__" data-uid="DataStructures.AvlTree`1.GetMaximum(DataStructures.INodeTree{`0})">GetMaximum(INodeTree&lt;TData&gt;)</h4>
+  <div class="markdown level1 summary"><p>Returns the node with the maximum key value from the overgiven node <code data-dev-comment-type="paramref" class="paramref">node</code></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected INodeTree&lt;TData&gt; GetMaximum(INodeTree&lt;TData&gt; node)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DataStructures.INodeTree-1.html">INodeTree</a>&lt;TData&gt;</td>
+        <td><span class="parametername">node</span></td>
+        <td><p>The node from to look up the node with the maximum key value</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DataStructures.INodeTree-1.html">INodeTree</a>&lt;TData&gt;</td>
+        <td><p>The node with the maximum key value</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mfe-/DataStructures.Algorithms/new/master/apiSpec/new?filename=DataStructures_AvlTree_1_GetMinimum.md&amp;value=---%0Auid%3A%20DataStructures.AvlTree%601.GetMinimum%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mfe-/DataStructures.Algorithms/blob/master/src/DataStructures/AvlTree{TData}.cs/#L341">View Source</a>
+  </span>
+  <a id="DataStructures_AvlTree_1_GetMinimum_" data-uid="DataStructures.AvlTree`1.GetMinimum*"></a>
+  <h4 id="DataStructures_AvlTree_1_GetMinimum" data-uid="DataStructures.AvlTree`1.GetMinimum">GetMinimum()</h4>
+  <div class="markdown level1 summary"><p>Get the node with the minimum key value of the current tree</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override INodeTree&lt;TData&gt; GetMinimum()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DataStructures.INodeTree-1.html">INodeTree</a>&lt;TData&gt;</td>
+        <td><p>The Node with the minimum key of the tree</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">DataStructures.AbstractTree&lt;DataStructures.INodeTree&lt;TData&gt;, TData&gt;.GetMinimum()</span></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mfe-/DataStructures.Algorithms/new/master/apiSpec/new?filename=DataStructures_AvlTree_1_GetMinimum_DataStructures_INodeTree__0__.md&amp;value=---%0Auid%3A%20DataStructures.AvlTree%601.GetMinimum(DataStructures.INodeTree%7B%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mfe-/DataStructures.Algorithms/blob/master/src/DataStructures/AvlTree{TData}.cs/#L351">View Source</a>
+  </span>
+  <a id="DataStructures_AvlTree_1_GetMinimum_" data-uid="DataStructures.AvlTree`1.GetMinimum*"></a>
+  <h4 id="DataStructures_AvlTree_1_GetMinimum_DataStructures_INodeTree__0__" data-uid="DataStructures.AvlTree`1.GetMinimum(DataStructures.INodeTree{`0})">GetMinimum(INodeTree&lt;TData&gt;)</h4>
+  <div class="markdown level1 summary"><p>Returns the node with the minimum key value from the overgiven node <code data-dev-comment-type="paramref" class="paramref">node</code></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected INodeTree&lt;TData&gt; GetMinimum(INodeTree&lt;TData&gt; node)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DataStructures.INodeTree-1.html">INodeTree</a>&lt;TData&gt;</td>
+        <td><span class="parametername">node</span></td>
+        <td><p>The node from to look up the node with the minimum key value</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DataStructures.INodeTree-1.html">INodeTree</a>&lt;TData&gt;</td>
+        <td><p>The node with the lowest key</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mfe-/DataStructures.Algorithms/new/master/apiSpec/new?filename=DataStructures_AvlTree_1_GetSuccessor_DataStructures_INodeTree__0__.md&amp;value=---%0Auid%3A%20DataStructures.AvlTree%601.GetSuccessor(DataStructures.INodeTree%7B%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mfe-/DataStructures.Algorithms/blob/master/src/DataStructures/AvlTree{TData}.cs/#L314">View Source</a>
+  </span>
+  <a id="DataStructures_AvlTree_1_GetSuccessor_" data-uid="DataStructures.AvlTree`1.GetSuccessor*"></a>
+  <h4 id="DataStructures_AvlTree_1_GetSuccessor_DataStructures_INodeTree__0__" data-uid="DataStructures.AvlTree`1.GetSuccessor(DataStructures.INodeTree{`0})">GetSuccessor(INodeTree&lt;TData&gt;)</h4>
+  <div class="markdown level1 summary"><p>Returns the successor of the overgiven node</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public INodeTree&lt;TData&gt; GetSuccessor(INodeTree&lt;TData&gt; node)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DataStructures.INodeTree-1.html">INodeTree</a>&lt;TData&gt;</td>
+        <td><span class="parametername">node</span></td>
+        <td><p>The node to look up for the successor</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DataStructures.INodeTree-1.html">INodeTree</a>&lt;TData&gt;</td>
+        <td><p>The successor of the node</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mfe-/DataStructures.Algorithms/new/master/apiSpec/new?filename=DataStructures_AvlTree_1_Height_DataStructures_INodeTree__0__.md&amp;value=---%0Auid%3A%20DataStructures.AvlTree%601.Height(DataStructures.INodeTree%7B%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mfe-/DataStructures.Algorithms/blob/master/src/DataStructures/AvlTree{TData}.cs/#L234">View Source</a>
+  </span>
+  <a id="DataStructures_AvlTree_1_Height_" data-uid="DataStructures.AvlTree`1.Height*"></a>
+  <h4 id="DataStructures_AvlTree_1_Height_DataStructures_INodeTree__0__" data-uid="DataStructures.AvlTree`1.Height(DataStructures.INodeTree{`0})">Height(INodeTree&lt;TData&gt;)</h4>
+  <div class="markdown level1 summary"><p>Calculates the height of the node</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Height(INodeTree&lt;TData&gt; node)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DataStructures.INodeTree-1.html">INodeTree</a>&lt;TData&gt;</td>
+        <td><span class="parametername">node</span></td>
+        <td><p>The node of which we calculate the height</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The calculated value</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mfe-/DataStructures.Algorithms/new/master/apiSpec/new?filename=DataStructures_AvlTree_1_ReBalance_DataStructures_INodeTree__0__.md&amp;value=---%0Auid%3A%20DataStructures.AvlTree%601.ReBalance(DataStructures.INodeTree%7B%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mfe-/DataStructures.Algorithms/blob/master/src/DataStructures/AvlTree{TData}.cs/#L261">View Source</a>
+  </span>
+  <a id="DataStructures_AvlTree_1_ReBalance_" data-uid="DataStructures.AvlTree`1.ReBalance*"></a>
+  <h4 id="DataStructures_AvlTree_1_ReBalance_DataStructures_INodeTree__0__" data-uid="DataStructures.AvlTree`1.ReBalance(DataStructures.INodeTree{`0})">ReBalance(INodeTree&lt;TData&gt;)</h4>
+  <div class="markdown level1 summary"><p>Rebalance from a node</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void ReBalance(INodeTree&lt;TData&gt; node)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DataStructures.INodeTree-1.html">INodeTree</a>&lt;TData&gt;</td>
+        <td><span class="parametername">node</span></td>
+        <td><p>The noode which we should rebalance</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mfe-/DataStructures.Algorithms/new/master/apiSpec/new?filename=DataStructures_AvlTree_1_Remove_System_IComparable_.md&amp;value=---%0Auid%3A%20DataStructures.AvlTree%601.Remove(System.IComparable)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mfe-/DataStructures.Algorithms/blob/master/src/DataStructures/AvlTree{TData}.cs/#L125">View Source</a>
+  </span>
+  <a id="DataStructures_AvlTree_1_Remove_" data-uid="DataStructures.AvlTree`1.Remove*"></a>
+  <h4 id="DataStructures_AvlTree_1_Remove_System_IComparable_" data-uid="DataStructures.AvlTree`1.Remove(System.IComparable)">Remove(IComparable)</h4>
+  <div class="markdown level1 summary"><p>Removes the overgiven key if it exists</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Remove(IComparable key)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IComparable</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>Removes the overgiven key if it exists</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">DataStructures.AbstractTree&lt;DataStructures.INodeTree&lt;TData&gt;, TData&gt;.Remove(System.IComparable)</span></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mfe-/DataStructures.Algorithms/new/master/apiSpec/new?filename=DataStructures_AvlTree_1_RotateLeft_DataStructures_INodeTree__0__.md&amp;value=---%0Auid%3A%20DataStructures.AvlTree%601.RotateLeft(DataStructures.INodeTree%7B%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mfe-/DataStructures.Algorithms/blob/master/src/DataStructures/AvlTree{TData}.cs/#L393">View Source</a>
+  </span>
+  <a id="DataStructures_AvlTree_1_RotateLeft_" data-uid="DataStructures.AvlTree`1.RotateLeft*"></a>
+  <h4 id="DataStructures_AvlTree_1_RotateLeft_DataStructures_INodeTree__0__" data-uid="DataStructures.AvlTree`1.RotateLeft(DataStructures.INodeTree{`0})">RotateLeft(INodeTree&lt;TData&gt;)</h4>
+  <div class="markdown level1 summary"><p>Operates a left rotation on the overgiven <code data-dev-comment-type="paramref" class="paramref">n</code> node</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected INodeTree&lt;TData&gt; RotateLeft(INodeTree&lt;TData&gt; n)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DataStructures.INodeTree-1.html">INodeTree</a>&lt;TData&gt;</td>
+        <td><span class="parametername">n</span></td>
+        <td><p>The node to rotate</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DataStructures.INodeTree-1.html">INodeTree</a>&lt;TData&gt;</td>
+        <td><p>The root node of the subtree</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mfe-/DataStructures.Algorithms/new/master/apiSpec/new?filename=DataStructures_AvlTree_1_RotateRight_DataStructures_INodeTree__0__.md&amp;value=---%0Auid%3A%20DataStructures.AvlTree%601.RotateRight(DataStructures.INodeTree%7B%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mfe-/DataStructures.Algorithms/blob/master/src/DataStructures/AvlTree{TData}.cs/#L442">View Source</a>
+  </span>
+  <a id="DataStructures_AvlTree_1_RotateRight_" data-uid="DataStructures.AvlTree`1.RotateRight*"></a>
+  <h4 id="DataStructures_AvlTree_1_RotateRight_DataStructures_INodeTree__0__" data-uid="DataStructures.AvlTree`1.RotateRight(DataStructures.INodeTree{`0})">RotateRight(INodeTree&lt;TData&gt;)</h4>
+  <div class="markdown level1 summary"><p>Operates a right rotation on the overgiven <code data-dev-comment-type="paramref" class="paramref">n</code> node</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected INodeTree&lt;TData&gt; RotateRight(INodeTree&lt;TData&gt; n)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DataStructures.INodeTree-1.html">INodeTree</a>&lt;TData&gt;</td>
+        <td><span class="parametername">n</span></td>
+        <td><p>The node to rotate</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DataStructures.INodeTree-1.html">INodeTree</a>&lt;TData&gt;</td>
+        <td><p>The root node of the subtree</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/mfe-/DataStructures.Algorithms/new/master/apiSpec/new?filename=DataStructures_AvlTree_1.md&amp;value=---%0Auid%3A%20DataStructures.AvlTree%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/mfe-/DataStructures.Algorithms/blob/master/src/DataStructures/AvlTree{TData}.cs/#L20" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

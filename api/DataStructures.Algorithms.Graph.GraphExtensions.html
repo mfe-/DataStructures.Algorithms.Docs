@@ -1,0 +1,1372 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class GraphExtensions
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class GraphExtensions
+   ">
+    <meta name="generator" content="docfx 2.58.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="DataStructures.Algorithms.Graph.GraphExtensions">
+  
+  
+  <h1 id="DataStructures_Algorithms_Graph_GraphExtensions" data-uid="DataStructures.Algorithms.Graph.GraphExtensions" class="text-break">Class GraphExtensions
+  </h1>
+  <div class="markdown level0 summary"><p>Provides a set of static methods for working with graph objects.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">GraphExtensions</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="DataStructures.Algorithms.Graph.html">DataStructures.Algorithms.Graph</a></h6>
+  <h6><strong>Assembly</strong>: Abstract.DataStructures.Algorithms.Graph.dll</h6>
+  <h5 id="DataStructures_Algorithms_Graph_GraphExtensions_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class GraphExtensions</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mfe-/DataStructures.Algorithms/new/master/apiSpec/new?filename=DataStructures_Algorithms_Graph_GraphExtensions_AdjacencyMatrix_DataStructures_Graph_.md&amp;value=---%0Auid%3A%20DataStructures.Algorithms.Graph.GraphExtensions.AdjacencyMatrix(DataStructures.Graph)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mfe-/DataStructures.Algorithms/blob/master/src/DataStructures.Algorithms.Graph/Graph.Extensions.cs/#L483">View Source</a>
+  </span>
+  <a id="DataStructures_Algorithms_Graph_GraphExtensions_AdjacencyMatrix_" data-uid="DataStructures.Algorithms.Graph.GraphExtensions.AdjacencyMatrix*"></a>
+  <h4 id="DataStructures_Algorithms_Graph_GraphExtensions_AdjacencyMatrix_DataStructures_Graph_" data-uid="DataStructures.Algorithms.Graph.GraphExtensions.AdjacencyMatrix(DataStructures.Graph)">AdjacencyMatrix(Graph)</h4>
+  <div class="markdown level1 summary"><p>Sei G ein Graph mit Knotenmengen V(G). Die Adjazenzmatrix A(G) ist eine qudratische nxn n-Matrix
+mit aij = Fallunterscheidung ist vi und vj mit einer Kante verbunden 1 ansonsten 0
+<a href="http://en.wikipedia.org/wiki/Adjacency_list">http://en.wikipedia.org/wiki/Adjacency_list</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int[][] AdjacencyMatrix(this Graph g)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DataStructures.Graph.html">Graph</a></td>
+        <td><span class="parametername">g</span></td>
+        <td><p>Graph on which the adjacency list should be created</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span>[][]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mfe-/DataStructures.Algorithms/new/master/apiSpec/new?filename=DataStructures_Algorithms_Graph_GraphExtensions_AStar_DataStructures_IVertex_DataStructures_IVertex_System_Func_DataStructures_IVertex_System_Double__System_Func_DataStructures_IVertex_DataStructures_IEdge_System_Double__.md&amp;value=---%0Auid%3A%20DataStructures.Algorithms.Graph.GraphExtensions.AStar(DataStructures.IVertex%2CDataStructures.IVertex%2CSystem.Func%7BDataStructures.IVertex%2CSystem.Double%7D%2CSystem.Func%7BDataStructures.IVertex%2CDataStructures.IEdge%2CSystem.Double%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mfe-/DataStructures.Algorithms/blob/master/src/DataStructures.Algorithms.Graph/Graph.Extensions.cs/#L277">View Source</a>
+  </span>
+  <a id="DataStructures_Algorithms_Graph_GraphExtensions_AStar_" data-uid="DataStructures.Algorithms.Graph.GraphExtensions.AStar*"></a>
+  <h4 id="DataStructures_Algorithms_Graph_GraphExtensions_AStar_DataStructures_IVertex_DataStructures_IVertex_System_Func_DataStructures_IVertex_System_Double__System_Func_DataStructures_IVertex_DataStructures_IEdge_System_Double__" data-uid="DataStructures.Algorithms.Graph.GraphExtensions.AStar(DataStructures.IVertex,DataStructures.IVertex,System.Func{DataStructures.IVertex,System.Double},System.Func{DataStructures.IVertex,DataStructures.IEdge,System.Double})">AStar(IVertex, IVertex, Func&lt;IVertex, Double&gt;, Func&lt;IVertex, IEdge, Double&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IDictionary&lt;Guid, IEdge&gt; AStar(this IVertex start, IVertex goal, Func&lt;IVertex, double&gt; funcHeuristic = null, Func&lt;IVertex, IEdge, double&gt; funcEdgeWeight = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DataStructures.IVertex.html">IVertex</a></td>
+        <td><span class="parametername">start</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DataStructures.IVertex.html">IVertex</a></td>
+        <td><span class="parametername">goal</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<a class="xref" href="DataStructures.IVertex.html">IVertex</a>, <span class="xref">System.Double</span>&gt;</td>
+        <td><span class="parametername">funcHeuristic</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<a class="xref" href="DataStructures.IVertex.html">IVertex</a>, <a class="xref" href="DataStructures.IEdge.html">IEdge</a>, <span class="xref">System.Double</span>&gt;</td>
+        <td><span class="parametername">funcEdgeWeight</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IDictionary</span>&lt;<span class="xref">System.Guid</span>, <a class="xref" href="DataStructures.IEdge.html">IEdge</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mfe-/DataStructures.Algorithms/new/master/apiSpec/new?filename=DataStructures_Algorithms_Graph_GraphExtensions_BreadthFirstSearchQueue_DataStructures_IVertex_System_Action_DataStructures_IVertex__.md&amp;value=---%0Auid%3A%20DataStructures.Algorithms.Graph.GraphExtensions.BreadthFirstSearchQueue(DataStructures.IVertex%2CSystem.Action%7BDataStructures.IVertex%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mfe-/DataStructures.Algorithms/blob/master/src/DataStructures.Algorithms.Graph/Graph.Extensions.cs/#L168">View Source</a>
+  </span>
+  <a id="DataStructures_Algorithms_Graph_GraphExtensions_BreadthFirstSearchQueue_" data-uid="DataStructures.Algorithms.Graph.GraphExtensions.BreadthFirstSearchQueue*"></a>
+  <h4 id="DataStructures_Algorithms_Graph_GraphExtensions_BreadthFirstSearchQueue_DataStructures_IVertex_System_Action_DataStructures_IVertex__" data-uid="DataStructures.Algorithms.Graph.GraphExtensions.BreadthFirstSearchQueue(DataStructures.IVertex,System.Action{DataStructures.IVertex})">BreadthFirstSearchQueue(IVertex, Action&lt;IVertex&gt;)</h4>
+  <div class="markdown level1 summary"><p>Queue based implementation of BreadthFirstSearch</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;IVertex&gt; BreadthFirstSearchQueue(this IVertex vertex, Action&lt;IVertex&gt; vertexDequeueAction = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DataStructures.IVertex.html">IVertex</a></td>
+        <td><span class="parametername">vertex</span></td>
+        <td><p>start vertex</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="DataStructures.IVertex.html">IVertex</a>&gt;</td>
+        <td><span class="parametername">vertexDequeueAction</span></td>
+        <td><p>The action to execute when a vertex is dequeued</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="DataStructures.IVertex.html">IVertex</a>&gt;</td>
+        <td><p>The list of visited vertices</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mfe-/DataStructures.Algorithms/new/master/apiSpec/new?filename=DataStructures_Algorithms_Graph_GraphExtensions_DepthFirstSearch_DataStructures_IVertex_DataStructures_IVertex_System_Boolean_System_Action_DataStructures_IEdge__.md&amp;value=---%0Auid%3A%20DataStructures.Algorithms.Graph.GraphExtensions.DepthFirstSearch(DataStructures.IVertex%2CDataStructures.IVertex%2CSystem.Boolean%2CSystem.Action%7BDataStructures.IEdge%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mfe-/DataStructures.Algorithms/blob/master/src/DataStructures.Algorithms.Graph/Graph.Extensions.cs/#L68">View Source</a>
+  </span>
+  <a id="DataStructures_Algorithms_Graph_GraphExtensions_DepthFirstSearch_" data-uid="DataStructures.Algorithms.Graph.GraphExtensions.DepthFirstSearch*"></a>
+  <h4 id="DataStructures_Algorithms_Graph_GraphExtensions_DepthFirstSearch_DataStructures_IVertex_DataStructures_IVertex_System_Boolean_System_Action_DataStructures_IEdge__" data-uid="DataStructures.Algorithms.Graph.GraphExtensions.DepthFirstSearch(DataStructures.IVertex,DataStructures.IVertex,System.Boolean,System.Action{DataStructures.IEdge})">DepthFirstSearch(IVertex, IVertex, Boolean, Action&lt;IEdge&gt;)</h4>
+  <div class="markdown level1 summary"><p>Stack based implementation of DepthFirstSearch
+Searches from the <code data-dev-comment-type="paramref" class="paramref">start</code> the overgiven <code data-dev-comment-type="paramref" class="paramref">goal</code>
+<a href="http://en.wikipedia.org/wiki/Depth-first_search">http://en.wikipedia.org/wiki/Depth-first_search</a>
+Completeness: Not complete
+Admissible:</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;IEdge&gt; DepthFirstSearch(this IVertex start, IVertex goal = null, bool graphIsDirected = true, Action&lt;IEdge&gt; edgeVisitedAction = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DataStructures.IVertex.html">IVertex</a></td>
+        <td><span class="parametername">start</span></td>
+        <td><p>start vertex</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DataStructures.IVertex.html">IVertex</a></td>
+        <td><span class="parametername">goal</span></td>
+        <td><p>Vertex to lookup. When no goal supplied, the algorithm will visit all edges which exists in the graph.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">graphIsDirected</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="DataStructures.IEdge.html">IEdge</a>&gt;</td>
+        <td><span class="parametername">edgeVisitedAction</span></td>
+        <td><p>Action which should be executed when adding a edge to the stack</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="DataStructures.IEdge.html">IEdge</a>&gt;</td>
+        <td><p>Returns a list of all <a class="xref" href="DataStructures.IEdge.html">IEdge</a>s which are required to get the path beginning from the start to the goal</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mfe-/DataStructures.Algorithms/new/master/apiSpec/new?filename=DataStructures_Algorithms_Graph_GraphExtensions_DepthFirstSearchRecurisv_DataStructures_IVertex_DataStructures_IVertex_System_Boolean_.md&amp;value=---%0Auid%3A%20DataStructures.Algorithms.Graph.GraphExtensions.DepthFirstSearchRecurisv(DataStructures.IVertex%2CDataStructures.IVertex%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mfe-/DataStructures.Algorithms/blob/master/src/DataStructures.Algorithms.Graph/Graph.Extensions.cs/#L125">View Source</a>
+  </span>
+  <a id="DataStructures_Algorithms_Graph_GraphExtensions_DepthFirstSearchRecurisv_" data-uid="DataStructures.Algorithms.Graph.GraphExtensions.DepthFirstSearchRecurisv*"></a>
+  <h4 id="DataStructures_Algorithms_Graph_GraphExtensions_DepthFirstSearchRecurisv_DataStructures_IVertex_DataStructures_IVertex_System_Boolean_" data-uid="DataStructures.Algorithms.Graph.GraphExtensions.DepthFirstSearchRecurisv(DataStructures.IVertex,DataStructures.IVertex,System.Boolean)">DepthFirstSearchRecurisv(IVertex, IVertex, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Recurisv implementation of DepthFirstSearch</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;IEdge&gt; DepthFirstSearchRecurisv(this IVertex current, IVertex goal, bool graphIsDirected)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DataStructures.IVertex.html">IVertex</a></td>
+        <td><span class="parametername">current</span></td>
+        <td><p>Start vertex</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DataStructures.IVertex.html">IVertex</a></td>
+        <td><span class="parametername">goal</span></td>
+        <td><p>Vertex to lookup. When no goal supplied, the algorithm will visit all edges which exists in the graph.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">graphIsDirected</span></td>
+        <td><p>True if graph is directed. False for graph is undirected</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="DataStructures.IEdge.html">IEdge</a>&gt;</td>
+        <td><p>Returns a list of all <a class="xref" href="DataStructures.IEdge.html">IEdge</a>s which are required to get the path beginning from the start to the goal</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="DataStructures_Algorithms_Graph_GraphExtensions_DepthFirstSearchRecurisv_DataStructures_IVertex_DataStructures_IVertex_System_Boolean__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>HashSet uses the equals method for comparison of edges</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mfe-/DataStructures.Algorithms/new/master/apiSpec/new?filename=DataStructures_Algorithms_Graph_GraphExtensions_DepthFirstSearchStack_DataStructures_IVertex_.md&amp;value=---%0Auid%3A%20DataStructures.Algorithms.Graph.GraphExtensions.DepthFirstSearchStack(DataStructures.IVertex)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mfe-/DataStructures.Algorithms/blob/master/src/DataStructures.Algorithms.Graph/Graph.Extensions.cs/#L36">View Source</a>
+  </span>
+  <a id="DataStructures_Algorithms_Graph_GraphExtensions_DepthFirstSearchStack_" data-uid="DataStructures.Algorithms.Graph.GraphExtensions.DepthFirstSearchStack*"></a>
+  <h4 id="DataStructures_Algorithms_Graph_GraphExtensions_DepthFirstSearchStack_DataStructures_IVertex_" data-uid="DataStructures.Algorithms.Graph.GraphExtensions.DepthFirstSearchStack(DataStructures.IVertex)">DepthFirstSearchStack(IVertex)</h4>
+  <div class="markdown level1 summary"><p>DepthFirstSearch implemented as Stack</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;IVertex&gt; DepthFirstSearchStack(this IVertex start)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DataStructures.IVertex.html">IVertex</a></td>
+        <td><span class="parametername">start</span></td>
+        <td><p>start vertex</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="DataStructures.IVertex.html">IVertex</a>&gt;</td>
+        <td><p>All collected vertices</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mfe-/DataStructures.Algorithms/new/master/apiSpec/new?filename=DataStructures_Algorithms_Graph_GraphExtensions_DepthFirstTraversal_DataStructures_Graph_.md&amp;value=---%0Auid%3A%20DataStructures.Algorithms.Graph.GraphExtensions.DepthFirstTraversal(DataStructures.Graph)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mfe-/DataStructures.Algorithms/blob/master/src/DataStructures.Algorithms.Graph/Graph.Extensions.cs/#L20">View Source</a>
+  </span>
+  <a id="DataStructures_Algorithms_Graph_GraphExtensions_DepthFirstTraversal_" data-uid="DataStructures.Algorithms.Graph.GraphExtensions.DepthFirstTraversal*"></a>
+  <h4 id="DataStructures_Algorithms_Graph_GraphExtensions_DepthFirstTraversal_DataStructures_Graph_" data-uid="DataStructures.Algorithms.Graph.GraphExtensions.DepthFirstTraversal(DataStructures.Graph)">DepthFirstTraversal(Graph)</h4>
+  <div class="markdown level1 summary"><p>Returns all vertices from the graph using <a class="xref" href="DataStructures.Algorithms.Graph.GraphExtensions.html#DataStructures_Algorithms_Graph_GraphExtensions_DepthFirstSearchStack_DataStructures_IVertex_">DepthFirstSearchStack(IVertex)</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;IVertex&gt; DepthFirstTraversal(this Graph s)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DataStructures.Graph.html">Graph</a></td>
+        <td><span class="parametername">s</span></td>
+        <td><p>Root IVertex of graph</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="DataStructures.IVertex.html">IVertex</a>&gt;</td>
+        <td><p>All reachable vertices</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mfe-/DataStructures.Algorithms/new/master/apiSpec/new?filename=DataStructures_Algorithms_Graph_GraphExtensions_Distance_System_Collections_Generic_IEnumerable_DataStructures_IEdge__.md&amp;value=---%0Auid%3A%20DataStructures.Algorithms.Graph.GraphExtensions.Distance(System.Collections.Generic.IEnumerable%7BDataStructures.IEdge%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mfe-/DataStructures.Algorithms/blob/master/src/DataStructures.Algorithms.Graph/Graph.Extensions.cs/#L425">View Source</a>
+  </span>
+  <a id="DataStructures_Algorithms_Graph_GraphExtensions_Distance_" data-uid="DataStructures.Algorithms.Graph.GraphExtensions.Distance*"></a>
+  <h4 id="DataStructures_Algorithms_Graph_GraphExtensions_Distance_System_Collections_Generic_IEnumerable_DataStructures_IEdge__" data-uid="DataStructures.Algorithms.Graph.GraphExtensions.Distance(System.Collections.Generic.IEnumerable{DataStructures.IEdge})">Distance(IEnumerable&lt;IEdge&gt;)</h4>
+  <div class="markdown level1 summary"><p>Calculates the distance by summing the weighted of the IEdges.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double Distance(this IEnumerable&lt;IEdge&gt; edges)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="DataStructures.IEdge.html">IEdge</a>&gt;</td>
+        <td><span class="parametername">edges</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>Calculated distance</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mfe-/DataStructures.Algorithms/new/master/apiSpec/new?filename=DataStructures_Algorithms_Graph_GraphExtensions_Equals_DataStructures_IEdge_DataStructures_IEdge_System_Boolean_.md&amp;value=---%0Auid%3A%20DataStructures.Algorithms.Graph.GraphExtensions.Equals(DataStructures.IEdge%2CDataStructures.IEdge%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mfe-/DataStructures.Algorithms/blob/master/src/DataStructures.Algorithms.Graph/Graph.Extensions.cs/#L466">View Source</a>
+  </span>
+  <a id="DataStructures_Algorithms_Graph_GraphExtensions_Equals_" data-uid="DataStructures.Algorithms.Graph.GraphExtensions.Equals*"></a>
+  <h4 id="DataStructures_Algorithms_Graph_GraphExtensions_Equals_DataStructures_IEdge_DataStructures_IEdge_System_Boolean_" data-uid="DataStructures.Algorithms.Graph.GraphExtensions.Equals(DataStructures.IEdge,DataStructures.IEdge,System.Boolean)">Equals(IEdge, IEdge, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Returns a value indicating whether this instance is equal to the edge.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool Equals(this IEdge e, IEdge edge, bool graphIsdirected = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DataStructures.IEdge.html">IEdge</a></td>
+        <td><span class="parametername">e</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DataStructures.IEdge.html">IEdge</a></td>
+        <td><span class="parametername">edge</span></td>
+        <td><p>The edge to compare to this instance.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">graphIsdirected</span></td>
+        <td><p>If the parameter is false transported edges will be handled as equal</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if the instance and the overgiven edge are euqa; otherwiese, false.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mfe-/DataStructures.Algorithms/new/master/apiSpec/new?filename=DataStructures_Algorithms_Graph_GraphExtensions_GenerateGridGraph_System_Int32_System_Int32_System_Func_System_Int32_System_Int32_DataStructures_IVertex__System_Action_DataStructures_IVertex__System_Action_DataStructures_IVertex____System_Double_.md&amp;value=---%0Auid%3A%20DataStructures.Algorithms.Graph.GraphExtensions.GenerateGridGraph(System.Int32%2CSystem.Int32%2CSystem.Func%7BSystem.Int32%2CSystem.Int32%2CDataStructures.IVertex%7D%2CSystem.Action%7BDataStructures.IVertex%7D%2CSystem.Action%7BDataStructures.IVertex%5B%5D%7D%2CSystem.Double)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mfe-/DataStructures.Algorithms/blob/master/src/DataStructures.Algorithms.Graph/Graph.Extensions.cs/#L204">View Source</a>
+  </span>
+  <a id="DataStructures_Algorithms_Graph_GraphExtensions_GenerateGridGraph_" data-uid="DataStructures.Algorithms.Graph.GraphExtensions.GenerateGridGraph*"></a>
+  <h4 id="DataStructures_Algorithms_Graph_GraphExtensions_GenerateGridGraph_System_Int32_System_Int32_System_Func_System_Int32_System_Int32_DataStructures_IVertex__System_Action_DataStructures_IVertex__System_Action_DataStructures_IVertex____System_Double_" data-uid="DataStructures.Algorithms.Graph.GraphExtensions.GenerateGridGraph(System.Int32,System.Int32,System.Func{System.Int32,System.Int32,DataStructures.IVertex},System.Action{DataStructures.IVertex},System.Action{DataStructures.IVertex[]},System.Double)">GenerateGridGraph(Int32, Int32, Func&lt;Int32, Int32, IVertex&gt;, Action&lt;IVertex&gt;, Action&lt;IVertex[]&gt;, Double)</h4>
+  <div class="markdown level1 summary"><p>Creates a grid Graph</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Graph GenerateGridGraph(int amountWidthVertices, int amountHeightVertices, Func&lt;int, int, IVertex&gt; funFactory, Action&lt;IVertex&gt; onLastVertexCreatedAction = null, Action&lt;IVertex[]&gt; actionOnRowCreated = null, double edgeWeight = 1)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">amountWidthVertices</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">amountHeightVertices</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">System.Int32</span>, <span class="xref">System.Int32</span>, <a class="xref" href="DataStructures.IVertex.html">IVertex</a>&gt;</td>
+        <td><span class="parametername">funFactory</span></td>
+        <td><p>The vertice factory to create vertices</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="DataStructures.IVertex.html">IVertex</a>&gt;</td>
+        <td><span class="parametername">onLastVertexCreatedAction</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="DataStructures.IVertex.html">IVertex</a>[]&gt;</td>
+        <td><span class="parametername">actionOnRowCreated</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">edgeWeight</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DataStructures.Graph.html">Graph</a></td>
+        <td><p>The created graph</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mfe-/DataStructures.Algorithms/new/master/apiSpec/new?filename=DataStructures_Algorithms_Graph_GraphExtensions_GetDataContractSerializerSettings.md&amp;value=---%0Auid%3A%20DataStructures.Algorithms.Graph.GraphExtensions.GetDataContractSerializerSettings%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mfe-/DataStructures.Algorithms/blob/master/src/DataStructures.Algorithms.Graph/Graph.Extensions.Xml.cs/#L17">View Source</a>
+  </span>
+  <a id="DataStructures_Algorithms_Graph_GraphExtensions_GetDataContractSerializerSettings_" data-uid="DataStructures.Algorithms.Graph.GraphExtensions.GetDataContractSerializerSettings*"></a>
+  <h4 id="DataStructures_Algorithms_Graph_GraphExtensions_GetDataContractSerializerSettings" data-uid="DataStructures.Algorithms.Graph.GraphExtensions.GetDataContractSerializerSettings">GetDataContractSerializerSettings()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static DataContractSerializerSettings GetDataContractSerializerSettings()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Runtime.Serialization.DataContractSerializerSettings</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mfe-/DataStructures.Algorithms/new/master/apiSpec/new?filename=DataStructures_Algorithms_Graph_GraphExtensions_GetDataContractSerializerSettings_System_Collections_Generic_List_System_Type__System_Runtime_Serialization_DataContractResolver_.md&amp;value=---%0Auid%3A%20DataStructures.Algorithms.Graph.GraphExtensions.GetDataContractSerializerSettings(System.Collections.Generic.List%7BSystem.Type%7D%2CSystem.Runtime.Serialization.DataContractResolver)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mfe-/DataStructures.Algorithms/blob/master/src/DataStructures.Algorithms.Graph/Graph.Extensions.Xml.cs/#L21">View Source</a>
+  </span>
+  <a id="DataStructures_Algorithms_Graph_GraphExtensions_GetDataContractSerializerSettings_" data-uid="DataStructures.Algorithms.Graph.GraphExtensions.GetDataContractSerializerSettings*"></a>
+  <h4 id="DataStructures_Algorithms_Graph_GraphExtensions_GetDataContractSerializerSettings_System_Collections_Generic_List_System_Type__System_Runtime_Serialization_DataContractResolver_" data-uid="DataStructures.Algorithms.Graph.GraphExtensions.GetDataContractSerializerSettings(System.Collections.Generic.List{System.Type},System.Runtime.Serialization.DataContractResolver)">GetDataContractSerializerSettings(List&lt;Type&gt;, DataContractResolver)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static DataContractSerializerSettings GetDataContractSerializerSettings(List&lt;Type&gt; knownTypes, DataContractResolver dataContractResolver = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.Type</span>&gt;</td>
+        <td><span class="parametername">knownTypes</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Runtime.Serialization.DataContractResolver</span></td>
+        <td><span class="parametername">dataContractResolver</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Runtime.Serialization.DataContractSerializerSettings</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mfe-/DataStructures.Algorithms/new/master/apiSpec/new?filename=DataStructures_Algorithms_Graph_GraphExtensions_GetOppositeEdge_DataStructures_IEdge_.md&amp;value=---%0Auid%3A%20DataStructures.Algorithms.Graph.GraphExtensions.GetOppositeEdge(DataStructures.IEdge)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mfe-/DataStructures.Algorithms/blob/master/src/DataStructures.Algorithms.Graph/Graph.Extensions.cs/#L455">View Source</a>
+  </span>
+  <a id="DataStructures_Algorithms_Graph_GraphExtensions_GetOppositeEdge_" data-uid="DataStructures.Algorithms.Graph.GraphExtensions.GetOppositeEdge*"></a>
+  <h4 id="DataStructures_Algorithms_Graph_GraphExtensions_GetOppositeEdge_DataStructures_IEdge_" data-uid="DataStructures.Algorithms.Graph.GraphExtensions.GetOppositeEdge(DataStructures.IEdge)">GetOppositeEdge(IEdge)</h4>
+  <div class="markdown level1 summary"><p>The undirected graph contains for two vertices two edges.
+Pass one of the edge to get the opposite edge of it.
+U-&gt;V V-&gt;U</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEdge GetOppositeEdge(this IEdge edge)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DataStructures.IEdge.html">IEdge</a></td>
+        <td><span class="parametername">edge</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DataStructures.IEdge.html">IEdge</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mfe-/DataStructures.Algorithms/new/master/apiSpec/new?filename=DataStructures_Algorithms_Graph_GraphExtensions_IsDirected_DataStructures_Graph_.md&amp;value=---%0Auid%3A%20DataStructures.Algorithms.Graph.GraphExtensions.IsDirected(DataStructures.Graph)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mfe-/DataStructures.Algorithms/blob/master/src/DataStructures.Algorithms.Graph/Graph.Extensions.cs/#L519">View Source</a>
+  </span>
+  <a id="DataStructures_Algorithms_Graph_GraphExtensions_IsDirected_" data-uid="DataStructures.Algorithms.Graph.GraphExtensions.IsDirected*"></a>
+  <h4 id="DataStructures_Algorithms_Graph_GraphExtensions_IsDirected_DataStructures_Graph_" data-uid="DataStructures.Algorithms.Graph.GraphExtensions.IsDirected(DataStructures.Graph)">IsDirected(Graph)</h4>
+  <div class="markdown level1 summary"><p>Determines whether the graph is directed or undirected.
+Uses the <a class="xref" href="DataStructures.Algorithms.Graph.GraphExtensions.html#DataStructures_Algorithms_Graph_GraphExtensions_AdjacencyMatrix_DataStructures_Graph_">AdjacencyMatrix(Graph)</a> to generate a matrix and checks whether its a symmetric</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsDirected(this Graph g)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DataStructures.Graph.html">Graph</a></td>
+        <td><span class="parametername">g</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mfe-/DataStructures.Algorithms/new/master/apiSpec/new?filename=DataStructures_Algorithms_Graph_GraphExtensions_KruskalDepthFirstSearch_DataStructures_Graph_.md&amp;value=---%0Auid%3A%20DataStructures.Algorithms.Graph.GraphExtensions.KruskalDepthFirstSearch(DataStructures.Graph)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mfe-/DataStructures.Algorithms/blob/master/src/DataStructures.Algorithms.Graph/Graph.Extensions.cs/#L371">View Source</a>
+  </span>
+  <a id="DataStructures_Algorithms_Graph_GraphExtensions_KruskalDepthFirstSearch_" data-uid="DataStructures.Algorithms.Graph.GraphExtensions.KruskalDepthFirstSearch*"></a>
+  <h4 id="DataStructures_Algorithms_Graph_GraphExtensions_KruskalDepthFirstSearch_DataStructures_Graph_" data-uid="DataStructures.Algorithms.Graph.GraphExtensions.KruskalDepthFirstSearch(DataStructures.Graph)">KruskalDepthFirstSearch(Graph)</h4>
+  <div class="markdown level1 summary"><p>Kruskal implementation with DFS</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Graph KruskalDepthFirstSearch(this Graph g)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DataStructures.Graph.html">Graph</a></td>
+        <td><span class="parametername">g</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DataStructures.Graph.html">Graph</a></td>
+        <td><p>The new created graph without cycles</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mfe-/DataStructures.Algorithms/new/master/apiSpec/new?filename=DataStructures_Algorithms_Graph_GraphExtensions_Load_DataStructures_Graph_System_String_.md&amp;value=---%0Auid%3A%20DataStructures.Algorithms.Graph.GraphExtensions.Load(DataStructures.Graph%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mfe-/DataStructures.Algorithms/blob/master/src/DataStructures.Algorithms.Graph/Graph.Extensions.Xml.cs/#L60">View Source</a>
+  </span>
+  <a id="DataStructures_Algorithms_Graph_GraphExtensions_Load_" data-uid="DataStructures.Algorithms.Graph.GraphExtensions.Load*"></a>
+  <h4 id="DataStructures_Algorithms_Graph_GraphExtensions_Load_DataStructures_Graph_System_String_" data-uid="DataStructures.Algorithms.Graph.GraphExtensions.Load(DataStructures.Graph,System.String)">Load(Graph, String)</h4>
+  <div class="markdown level1 summary"><p>Deserialize the Graph from a xml file</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Load(this Graph g, string pfilename)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DataStructures.Graph.html">Graph</a></td>
+        <td><span class="parametername">g</span></td>
+        <td><p>where the graph should be into deserialize</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">pfilename</span></td>
+        <td><p>filename to the xml file which contains the data of the graph</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mfe-/DataStructures.Algorithms/new/master/apiSpec/new?filename=DataStructures_Algorithms_Graph_GraphExtensions_Load_DataStructures_Graph_System_String_System_Int32_System_Action_System_Runtime_Serialization_DataContractSerializerSettings__.md&amp;value=---%0Auid%3A%20DataStructures.Algorithms.Graph.GraphExtensions.Load(DataStructures.Graph%2CSystem.String%2CSystem.Int32%2CSystem.Action%7BSystem.Runtime.Serialization.DataContractSerializerSettings%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mfe-/DataStructures.Algorithms/blob/master/src/DataStructures.Algorithms.Graph/Graph.Extensions.Xml.cs/#L64">View Source</a>
+  </span>
+  <a id="DataStructures_Algorithms_Graph_GraphExtensions_Load_" data-uid="DataStructures.Algorithms.Graph.GraphExtensions.Load*"></a>
+  <h4 id="DataStructures_Algorithms_Graph_GraphExtensions_Load_DataStructures_Graph_System_String_System_Int32_System_Action_System_Runtime_Serialization_DataContractSerializerSettings__" data-uid="DataStructures.Algorithms.Graph.GraphExtensions.Load(DataStructures.Graph,System.String,System.Int32,System.Action{System.Runtime.Serialization.DataContractSerializerSettings})">Load(Graph, String, Int32, Action&lt;DataContractSerializerSettings&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Load(this Graph g, string pfilename, int maxDepth, Action&lt;DataContractSerializerSettings&gt; DataContractSerializerSettingsActionInvokrer = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DataStructures.Graph.html">Graph</a></td>
+        <td><span class="parametername">g</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">pfilename</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">maxDepth</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">System.Runtime.Serialization.DataContractSerializerSettings</span>&gt;</td>
+        <td><span class="parametername">DataContractSerializerSettingsActionInvokrer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mfe-/DataStructures.Algorithms/new/master/apiSpec/new?filename=DataStructures_Algorithms_Graph_GraphExtensions_Load_System_Xml_Linq_XElement_System_Action_System_Runtime_Serialization_DataContractSerializerSettings__.md&amp;value=---%0Auid%3A%20DataStructures.Algorithms.Graph.GraphExtensions.Load(System.Xml.Linq.XElement%2CSystem.Action%7BSystem.Runtime.Serialization.DataContractSerializerSettings%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mfe-/DataStructures.Algorithms/blob/master/src/DataStructures.Algorithms.Graph/Graph.Extensions.Xml.cs/#L82">View Source</a>
+  </span>
+  <a id="DataStructures_Algorithms_Graph_GraphExtensions_Load_" data-uid="DataStructures.Algorithms.Graph.GraphExtensions.Load*"></a>
+  <h4 id="DataStructures_Algorithms_Graph_GraphExtensions_Load_System_Xml_Linq_XElement_System_Action_System_Runtime_Serialization_DataContractSerializerSettings__" data-uid="DataStructures.Algorithms.Graph.GraphExtensions.Load(System.Xml.Linq.XElement,System.Action{System.Runtime.Serialization.DataContractSerializerSettings})">Load(XElement, Action&lt;DataContractSerializerSettings&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Graph Load(this XElement e, Action&lt;DataContractSerializerSettings&gt; DataContractSerializerSettingsActionInvokrer = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Xml.Linq.XElement</span></td>
+        <td><span class="parametername">e</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">System.Runtime.Serialization.DataContractSerializerSettings</span>&gt;</td>
+        <td><span class="parametername">DataContractSerializerSettingsActionInvokrer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DataStructures.Graph.html">Graph</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mfe-/DataStructures.Algorithms/new/master/apiSpec/new?filename=DataStructures_Algorithms_Graph_GraphExtensions_ReconstructPath_System_Collections_Generic_IDictionary_System_Guid_DataStructures_IEdge__DataStructures_IVertex_.md&amp;value=---%0Auid%3A%20DataStructures.Algorithms.Graph.GraphExtensions.ReconstructPath(System.Collections.Generic.IDictionary%7BSystem.Guid%2CDataStructures.IEdge%7D%2CDataStructures.IVertex)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mfe-/DataStructures.Algorithms/blob/master/src/DataStructures.Algorithms.Graph/Graph.Extensions.cs/#L267">View Source</a>
+  </span>
+  <a id="DataStructures_Algorithms_Graph_GraphExtensions_ReconstructPath_" data-uid="DataStructures.Algorithms.Graph.GraphExtensions.ReconstructPath*"></a>
+  <h4 id="DataStructures_Algorithms_Graph_GraphExtensions_ReconstructPath_System_Collections_Generic_IDictionary_System_Guid_DataStructures_IEdge__DataStructures_IVertex_" data-uid="DataStructures.Algorithms.Graph.GraphExtensions.ReconstructPath(System.Collections.Generic.IDictionary{System.Guid,DataStructures.IEdge},DataStructures.IVertex)">ReconstructPath(IDictionary&lt;Guid, IEdge&gt;, IVertex)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;IVertex&gt; ReconstructPath(this IDictionary&lt;Guid, IEdge&gt; edge, IVertex goal)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IDictionary</span>&lt;<span class="xref">System.Guid</span>, <a class="xref" href="DataStructures.IEdge.html">IEdge</a>&gt;</td>
+        <td><span class="parametername">edge</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DataStructures.IVertex.html">IVertex</a></td>
+        <td><span class="parametername">goal</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="DataStructures.IVertex.html">IVertex</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mfe-/DataStructures.Algorithms/new/master/apiSpec/new?filename=DataStructures_Algorithms_Graph_GraphExtensions_Save_DataStructures_Graph_System_Action_System_Runtime_Serialization_DataContractSerializerSettings__.md&amp;value=---%0Auid%3A%20DataStructures.Algorithms.Graph.GraphExtensions.Save(DataStructures.Graph%2CSystem.Action%7BSystem.Runtime.Serialization.DataContractSerializerSettings%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mfe-/DataStructures.Algorithms/blob/master/src/DataStructures.Algorithms.Graph/Graph.Extensions.Xml.cs/#L39">View Source</a>
+  </span>
+  <a id="DataStructures_Algorithms_Graph_GraphExtensions_Save_" data-uid="DataStructures.Algorithms.Graph.GraphExtensions.Save*"></a>
+  <h4 id="DataStructures_Algorithms_Graph_GraphExtensions_Save_DataStructures_Graph_System_Action_System_Runtime_Serialization_DataContractSerializerSettings__" data-uid="DataStructures.Algorithms.Graph.GraphExtensions.Save(DataStructures.Graph,System.Action{System.Runtime.Serialization.DataContractSerializerSettings})">Save(Graph, Action&lt;DataContractSerializerSettings&gt;)</h4>
+  <div class="markdown level1 summary"><p>Serialize the Graph into a XElement</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static XElement Save(this Graph g, Action&lt;DataContractSerializerSettings&gt; DataContractSerializerSettingsActionInvokrer = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DataStructures.Graph.html">Graph</a></td>
+        <td><span class="parametername">g</span></td>
+        <td><p>Graph to save</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">System.Runtime.Serialization.DataContractSerializerSettings</span>&gt;</td>
+        <td><span class="parametername">DataContractSerializerSettingsActionInvokrer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Xml.Linq.XElement</span></td>
+        <td><p>Serialized Graph</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mfe-/DataStructures.Algorithms/new/master/apiSpec/new?filename=DataStructures_Algorithms_Graph_GraphExtensions_Serialize_DataStructures_IVertex_System_String_.md&amp;value=---%0Auid%3A%20DataStructures.Algorithms.Graph.GraphExtensions.Serialize(DataStructures.IVertex%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mfe-/DataStructures.Algorithms/blob/master/src/DataStructures.Algorithms.Graph/Graph.Extensions.Xml.cs/#L114">View Source</a>
+  </span>
+  <a id="DataStructures_Algorithms_Graph_GraphExtensions_Serialize_" data-uid="DataStructures.Algorithms.Graph.GraphExtensions.Serialize*"></a>
+  <h4 id="DataStructures_Algorithms_Graph_GraphExtensions_Serialize_DataStructures_IVertex_System_String_" data-uid="DataStructures.Algorithms.Graph.GraphExtensions.Serialize(DataStructures.IVertex,System.String)">Serialize(IVertex, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string Serialize(this IVertex v, string path)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DataStructures.IVertex.html">IVertex</a></td>
+        <td><span class="parametername">v</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">path</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mfe-/DataStructures.Algorithms/new/master/apiSpec/new?filename=DataStructures_Algorithms_Graph_GraphExtensions_Sort_System_Collections_Generic_IEnumerable_DataStructures_IVertex__.md&amp;value=---%0Auid%3A%20DataStructures.Algorithms.Graph.GraphExtensions.Sort(System.Collections.Generic.IEnumerable%7BDataStructures.IVertex%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mfe-/DataStructures.Algorithms/blob/master/src/DataStructures.Algorithms.Graph/Graph.Extensions.cs/#L435">View Source</a>
+  </span>
+  <a id="DataStructures_Algorithms_Graph_GraphExtensions_Sort_" data-uid="DataStructures.Algorithms.Graph.GraphExtensions.Sort*"></a>
+  <h4 id="DataStructures_Algorithms_Graph_GraphExtensions_Sort_System_Collections_Generic_IEnumerable_DataStructures_IVertex__" data-uid="DataStructures.Algorithms.Graph.GraphExtensions.Sort(System.Collections.Generic.IEnumerable{DataStructures.IVertex})">Sort(IEnumerable&lt;IVertex&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;IVertex&gt; Sort(this IEnumerable&lt;IVertex&gt; l)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="DataStructures.IVertex.html">IVertex</a>&gt;</td>
+        <td><span class="parametername">l</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="DataStructures.IVertex.html">IVertex</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mfe-/DataStructures.Algorithms/new/master/apiSpec/new?filename=DataStructures_Algorithms_Graph_GraphExtensions_ToVertexList_System_Collections_Generic_IEnumerable_DataStructures_IEdge__.md&amp;value=---%0Auid%3A%20DataStructures.Algorithms.Graph.GraphExtensions.ToVertexList(System.Collections.Generic.IEnumerable%7BDataStructures.IEdge%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mfe-/DataStructures.Algorithms/blob/master/src/DataStructures.Algorithms.Graph/Graph.Extensions.cs/#L444">View Source</a>
+  </span>
+  <a id="DataStructures_Algorithms_Graph_GraphExtensions_ToVertexList_" data-uid="DataStructures.Algorithms.Graph.GraphExtensions.ToVertexList*"></a>
+  <h4 id="DataStructures_Algorithms_Graph_GraphExtensions_ToVertexList_System_Collections_Generic_IEnumerable_DataStructures_IEdge__" data-uid="DataStructures.Algorithms.Graph.GraphExtensions.ToVertexList(System.Collections.Generic.IEnumerable{DataStructures.IEdge})">ToVertexList(IEnumerable&lt;IEdge&gt;)</h4>
+  <div class="markdown level1 summary"><p>Converts a edge list to a vertices list</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;IVertex&gt; ToVertexList(this IEnumerable&lt;IEdge&gt; l)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="DataStructures.IEdge.html">IEdge</a>&gt;</td>
+        <td><span class="parametername">l</span></td>
+        <td><p>The edge list</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="DataStructures.IVertex.html">IVertex</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/mfe-/DataStructures.Algorithms/new/master/apiSpec/new?filename=DataStructures_Algorithms_Graph_GraphExtensions.md&amp;value=---%0Auid%3A%20DataStructures.Algorithms.Graph.GraphExtensions%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/mfe-/DataStructures.Algorithms/blob/master/src/DataStructures.Algorithms.Graph/Graph.Extensions.Xml.cs/#L15" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

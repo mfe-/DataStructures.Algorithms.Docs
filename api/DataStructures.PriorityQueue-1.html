@@ -1,0 +1,468 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class PriorityQueue&lt;TData&gt;
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class PriorityQueue&lt;TData&gt;
+   ">
+    <meta name="generator" content="docfx 2.58.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="DataStructures.PriorityQueue`1">
+  
+  
+  <h1 id="DataStructures_PriorityQueue_1" data-uid="DataStructures.PriorityQueue`1" class="text-break">Class PriorityQueue&lt;TData&gt;
+  </h1>
+  <div class="markdown level0 summary"><p>PriorityQueue using <a class="xref" href="DataStructures.BinarySearchTree-1.html">BinarySearchTree&lt;TData&gt;</a> with a list on each node to save duplicates</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="DataStructures.AbstractTree-2.html">AbstractTree</a>&lt;<a class="xref" href="DataStructures.INodeTree-1.html">INodeTree</a>&lt;TData&gt;, TData&gt;</div>
+    <div class="level2"><a class="xref" href="DataStructures.BinarySearchTree-1.html">BinarySearchTree</a>&lt;TData&gt;</div>
+    <div class="level3"><span class="xref">PriorityQueue&lt;TData&gt;</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="DataStructures.BinarySearchTree-1.html#DataStructures_BinarySearchTree_1_ContainsKey_System_IComparable_">BinarySearchTree&lt;TData&gt;.ContainsKey(IComparable)</a>
+    </div>
+    <div>
+      <a class="xref" href="DataStructures.BinarySearchTree-1.html#DataStructures_BinarySearchTree_1_Height">BinarySearchTree&lt;TData&gt;.Height</a>
+    </div>
+    <div>
+      <a class="xref" href="DataStructures.BinarySearchTree-1.html#DataStructures_BinarySearchTree_1_GetHeight_DataStructures_INodeTree__0__">BinarySearchTree&lt;TData&gt;.GetHeight(INodeTree&lt;TData&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="DataStructures.BinarySearchTree-1.html#DataStructures_BinarySearchTree_1_Clear">BinarySearchTree&lt;TData&gt;.Clear()</a>
+    </div>
+    <div>
+      <a class="xref" href="DataStructures.BinarySearchTree-1.html#DataStructures_BinarySearchTree_1_Remove_System_IComparable_">BinarySearchTree&lt;TData&gt;.Remove(IComparable)</a>
+    </div>
+    <div>
+      <a class="xref" href="DataStructures.BinarySearchTree-1.html#DataStructures_BinarySearchTree_1_Successor_DataStructures_INodeTree__0__">BinarySearchTree&lt;TData&gt;.Successor(INodeTree&lt;TData&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="DataStructures.BinarySearchTree-1.html#DataStructures_BinarySearchTree_1_GetMinimum_DataStructures_INodeTree__0__">BinarySearchTree&lt;TData&gt;.GetMinimum(INodeTree&lt;TData&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="DataStructures.BinarySearchTree-1.html#DataStructures_BinarySearchTree_1_GetMinimum">BinarySearchTree&lt;TData&gt;.GetMinimum()</a>
+    </div>
+    <div>
+      <a class="xref" href="DataStructures.BinarySearchTree-1.html#DataStructures_BinarySearchTree_1_GetMaximum_DataStructures_INodeTree__0__">BinarySearchTree&lt;TData&gt;.GetMaximum(INodeTree&lt;TData&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="DataStructures.BinarySearchTree-1.html#DataStructures_BinarySearchTree_1_GetMaximum">BinarySearchTree&lt;TData&gt;.GetMaximum()</a>
+    </div>
+    <div>
+      <a class="xref" href="DataStructures.BinarySearchTree-1.html#DataStructures_BinarySearchTree_1_CopyTo__0___System_Int32_">BinarySearchTree&lt;TData&gt;.CopyTo(TData[], Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="DataStructures.BinarySearchTree-1.html#DataStructures_BinarySearchTree_1_GetElementAt_System_Int32_">BinarySearchTree&lt;TData&gt;.GetElementAt(Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="DataStructures.BinarySearchTree-1.html#DataStructures_BinarySearchTree_1_GetElementAt_System_Int32_DataStructures_BinarySearchTree__0__BNode__0__">BinarySearchTree&lt;TData&gt;.GetElementAt(Int32, BinarySearchTree.BNode&lt;TData&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="DataStructures.BinarySearchTree-1.html#DataStructures_BinarySearchTree_1_Item_System_IComparable_">BinarySearchTree&lt;TData&gt;.Item[IComparable]</a>
+    </div>
+    <div>
+      <a class="xref" href="DataStructures.AbstractTree-2.html#DataStructures_AbstractTree_2_RootNode">AbstractTree&lt;INodeTree&lt;TData&gt;, TData&gt;.RootNode</a>
+    </div>
+    <div>
+      <a class="xref" href="DataStructures.AbstractTree-2.html#DataStructures_AbstractTree_2_FuncNodeFactory">AbstractTree&lt;INodeTree&lt;TData&gt;, TData&gt;.FuncNodeFactory</a>
+    </div>
+    <div>
+      <a class="xref" href="DataStructures.AbstractTree-2.html#DataStructures_AbstractTree_2_Empty">AbstractTree&lt;INodeTree&lt;TData&gt;, TData&gt;.Empty</a>
+    </div>
+    <div>
+      <a class="xref" href="DataStructures.AbstractTree-2.html#DataStructures_AbstractTree_2_Count">AbstractTree&lt;INodeTree&lt;TData&gt;, TData&gt;.Count</a>
+    </div>
+    <div>
+      <a class="xref" href="DataStructures.AbstractTree-2.html#DataStructures_AbstractTree_2_Add_System_IComparable__1_">AbstractTree&lt;INodeTree&lt;TData&gt;, TData&gt;.Add(IComparable, TData)</a>
+    </div>
+    <div>
+      <a class="xref" href="DataStructures.AbstractTree-2.html#DataStructures_AbstractTree_2_Add_System_Func__1_System_IComparable___1_">AbstractTree&lt;INodeTree&lt;TData&gt;, TData&gt;.Add(Func&lt;TData, IComparable&gt;, TData)</a>
+    </div>
+    <div>
+      <a class="xref" href="DataStructures.AbstractTree-2.html#DataStructures_AbstractTree_2_Remove_System_IComparable_">AbstractTree&lt;INodeTree&lt;TData&gt;, TData&gt;.Remove(IComparable)</a>
+    </div>
+    <div>
+      <a class="xref" href="DataStructures.AbstractTree-2.html#DataStructures_AbstractTree_2_GetNode_System_IComparable_System_Action__0__">AbstractTree&lt;INodeTree&lt;TData&gt;, TData&gt;.GetNode(IComparable, Action&lt;INodeTree&lt;TData&gt;&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="DataStructures.AbstractTree-2.html#DataStructures_AbstractTree_2_GetMinimum">AbstractTree&lt;INodeTree&lt;TData&gt;, TData&gt;.GetMinimum()</a>
+    </div>
+    <div>
+      <a class="xref" href="DataStructures.AbstractTree-2.html#DataStructures_AbstractTree_2_GetMaximum">AbstractTree&lt;INodeTree&lt;TData&gt;, TData&gt;.GetMaximum()</a>
+    </div>
+    <div>
+      <a class="xref" href="DataStructures.AbstractTree-2.html#DataStructures_AbstractTree_2_Find_System_Func__1_System_Boolean__">AbstractTree&lt;INodeTree&lt;TData&gt;, TData&gt;.Find(Func&lt;TData, Boolean&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="DataStructures.AbstractTree-2.html#DataStructures_AbstractTree_2_Find_System_Func__0_System_Boolean__">AbstractTree&lt;INodeTree&lt;TData&gt;, TData&gt;.Find(Func&lt;INodeTree&lt;TData&gt;, Boolean&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="DataStructures.AbstractTree-2.html#DataStructures_AbstractTree_2_Find__1_">AbstractTree&lt;INodeTree&lt;TData&gt;, TData&gt;.Find(TData)</a>
+    </div>
+    <div>
+      <a class="xref" href="DataStructures.AbstractTree-2.html#DataStructures_AbstractTree_2_Inorder">AbstractTree&lt;INodeTree&lt;TData&gt;, TData&gt;.Inorder()</a>
+    </div>
+    <div>
+      <a class="xref" href="DataStructures.AbstractTree-2.html#DataStructures_AbstractTree_2_Inorder__0_System_Collections_Generic_ICollection__0__">AbstractTree&lt;INodeTree&lt;TData&gt;, TData&gt;.Inorder(INodeTree&lt;TData&gt;, ICollection&lt;INodeTree&lt;TData&gt;&gt;)</a>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="DataStructures.html">DataStructures</a></h6>
+  <h6><strong>Assembly</strong>: Abstract.DataStructures.dll</h6>
+  <h5 id="DataStructures_PriorityQueue_1_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class PriorityQueue&lt;TData&gt; : BinarySearchTree&lt;TData&gt;</code></pre>
+  </div>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TData</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mfe-/DataStructures.Algorithms/new/master/apiSpec/new?filename=DataStructures_PriorityQueue_1__ctor_System_Func__0_System_IComparable__.md&amp;value=---%0Auid%3A%20DataStructures.PriorityQueue%601.%23ctor(System.Func%7B%600%2CSystem.IComparable%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mfe-/DataStructures.Algorithms/blob/master/src/DataStructures/PriorityQueue{TData}.cs/#L37">View Source</a>
+  </span>
+  <a id="DataStructures_PriorityQueue_1__ctor_" data-uid="DataStructures.PriorityQueue`1.#ctor*"></a>
+  <h4 id="DataStructures_PriorityQueue_1__ctor_System_Func__0_System_IComparable__" data-uid="DataStructures.PriorityQueue`1.#ctor(System.Func{`0,System.IComparable})">PriorityQueue(Func&lt;TData, IComparable&gt;)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="DataStructures.PriorityQueue-1.html">PriorityQueue&lt;TData&gt;</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PriorityQueue(Func&lt;TData, IComparable&gt; funcKey)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;TData, <span class="xref">System.IComparable</span>&gt;</td>
+        <td><span class="parametername">funcKey</span></td>
+        <td><p>The function which is used to retriev the key of a node</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mfe-/DataStructures.Algorithms/new/master/apiSpec/new?filename=DataStructures_PriorityQueue_1_Add_System_IComparable__0_.md&amp;value=---%0Auid%3A%20DataStructures.PriorityQueue%601.Add(System.IComparable%2C%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mfe-/DataStructures.Algorithms/blob/master/src/DataStructures/PriorityQueue{TData}.cs/#L44">View Source</a>
+  </span>
+  <a id="DataStructures_PriorityQueue_1_Add_" data-uid="DataStructures.PriorityQueue`1.Add*"></a>
+  <h4 id="DataStructures_PriorityQueue_1_Add_System_IComparable__0_" data-uid="DataStructures.PriorityQueue`1.Add(System.IComparable,`0)">Add(IComparable, TData)</h4>
+  <div class="markdown level1 summary"><p>Inserts data with a key</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Add(IComparable key, TData data)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IComparable</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>The key</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">TData</span></td>
+        <td><span class="parametername">data</span></td>
+        <td><p>The data which is associated with the key</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">DataStructures.BinarySearchTree&lt;TData&gt;.Add(System.IComparable, TData)</span></div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>If the key already exists</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mfe-/DataStructures.Algorithms/new/master/apiSpec/new?filename=DataStructures_PriorityQueue_1_Any.md&amp;value=---%0Auid%3A%20DataStructures.PriorityQueue%601.Any%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mfe-/DataStructures.Algorithms/blob/master/src/DataStructures/PriorityQueue{TData}.cs/#L145">View Source</a>
+  </span>
+  <a id="DataStructures_PriorityQueue_1_Any_" data-uid="DataStructures.PriorityQueue`1.Any*"></a>
+  <h4 id="DataStructures_PriorityQueue_1_Any" data-uid="DataStructures.PriorityQueue`1.Any">Any()</h4>
+  <div class="markdown level1 summary"><p>Returns if the <a class="xref" href="DataStructures.PriorityQueue-1.html">PriorityQueue&lt;TData&gt;</a> contains any data.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Any()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mfe-/DataStructures.Algorithms/new/master/apiSpec/new?filename=DataStructures_PriorityQueue_1_Dequeue.md&amp;value=---%0Auid%3A%20DataStructures.PriorityQueue%601.Dequeue%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mfe-/DataStructures.Algorithms/blob/master/src/DataStructures/PriorityQueue{TData}.cs/#L118">View Source</a>
+  </span>
+  <a id="DataStructures_PriorityQueue_1_Dequeue_" data-uid="DataStructures.PriorityQueue`1.Dequeue*"></a>
+  <h4 id="DataStructures_PriorityQueue_1_Dequeue" data-uid="DataStructures.PriorityQueue`1.Dequeue">Dequeue()</h4>
+  <div class="markdown level1 summary"><p>Gets the data with the minimum key and removes it from the <a class="xref" href="DataStructures.PriorityQueue-1.html">PriorityQueue&lt;TData&gt;</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TData Dequeue()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TData</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mfe-/DataStructures.Algorithms/new/master/apiSpec/new?filename=DataStructures_PriorityQueue_1_Enqueue__0_.md&amp;value=---%0Auid%3A%20DataStructures.PriorityQueue%601.Enqueue(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mfe-/DataStructures.Algorithms/blob/master/src/DataStructures/PriorityQueue{TData}.cs/#L108">View Source</a>
+  </span>
+  <a id="DataStructures_PriorityQueue_1_Enqueue_" data-uid="DataStructures.PriorityQueue`1.Enqueue*"></a>
+  <h4 id="DataStructures_PriorityQueue_1_Enqueue__0_" data-uid="DataStructures.PriorityQueue`1.Enqueue(`0)">Enqueue(TData)</h4>
+  <div class="markdown level1 summary"><p>Add <code data-dev-comment-type="paramref" class="paramref">data</code> to the queue</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IComparable Enqueue(TData data)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TData</span></td>
+        <td><span class="parametername">data</span></td>
+        <td><p>The data which should be queued</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IComparable</span></td>
+        <td><p>The retrieved key of the overgiven <code data-dev-comment-type="paramref" class="paramref">data</code> after it was added to the queue.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/mfe-/DataStructures.Algorithms/new/master/apiSpec/new?filename=DataStructures_PriorityQueue_1.md&amp;value=---%0Auid%3A%20DataStructures.PriorityQueue%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/mfe-/DataStructures.Algorithms/blob/master/src/DataStructures/PriorityQueue{TData}.cs/#L12" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

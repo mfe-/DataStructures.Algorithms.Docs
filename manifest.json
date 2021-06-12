@@ -5,11 +5,575 @@
   "files": [
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DataStructures.AbstractTree-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataStructures.AbstractTree-2.html",
+          "hash": "Y4D0I5LCoBmtaq8G5jMV4tqeiA5ydzMhqcouqOEA9Go="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataStructures.Algorithms.Graph.GraphExtensions.AEdge.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataStructures.Algorithms.Graph.GraphExtensions.AEdge.html",
+          "hash": "pWfpPvcHSJGMSzBMuGIVj5nIkz62kdee9vr1KL7NIDc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataStructures.Algorithms.Graph.GraphExtensions.VertexSerializationSurrogate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataStructures.Algorithms.Graph.GraphExtensions.VertexSerializationSurrogate.html",
+          "hash": "+Afsog3z0dzprgKPSma7T2YRfsza/0mjUdDbVhemb3Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataStructures.Algorithms.Graph.GraphExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataStructures.Algorithms.Graph.GraphExtensions.html",
+          "hash": "q6LeiA9rpmYkd1r3mPd6vI/fbA2w6Z3PNJSJq/AQIW4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataStructures.Algorithms.Graph.VertexEdgeMapResolver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataStructures.Algorithms.Graph.VertexEdgeMapResolver.html",
+          "hash": "vOwFjQqmR2kWVeEIirzib8knt4UEozENJsWhWQPwGg8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataStructures.Algorithms.Graph.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataStructures.Algorithms.Graph.html",
+          "hash": "gkQWXxIuibfytMiyAyDbjAgLc7bETMn35yeN0MNKFLA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataStructures.Algorithms.Search.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataStructures.Algorithms.Search.html",
+          "hash": "tkjgS87iynNEtFsfoV8dNGi5ThOJQ0hjCUbZHrG06ZI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataStructures.Algorithms.Sort.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataStructures.Algorithms.Sort.html",
+          "hash": "9tnqioc5T/xdJLW1ZaFUx4OfpBhUxGklTd9yTnnqGlo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataStructures.Algorithms.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataStructures.Algorithms.html",
+          "hash": "zay9S7dlciJv36WBleym/s8RDcmqGPqig3JCQ3UTed4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataStructures.AvlTree-1.ANodeLeafe-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataStructures.AvlTree-1.ANodeLeafe-1.html",
+          "hash": "GehJFpUE3DJ6XABOTAuiv9Y8ieknJ0/P8iJnsnDGwlQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataStructures.AvlTree-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataStructures.AvlTree-1.html",
+          "hash": "vuWg5xNlMo95coNecBkYeZv+Rlwl0Z8XAb6bTan5qhw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataStructures.BinarySearchTree-1.BNode-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataStructures.BinarySearchTree-1.BNode-1.html",
+          "hash": "rpaK2GONlrJeG8vTdbxXmkDyv/WdhFagUoMlAXWjFAU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataStructures.BinarySearchTree-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataStructures.BinarySearchTree-1.html",
+          "hash": "nhC/1XNgaebchrvOzKSmxQ0xRf1KMwkM/dzp1+bldc4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataStructures.Edge-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataStructures.Edge-1.html",
+          "hash": "xbZW7t40W3qZkecGhqBcqnZIkOpQ/ANx8n54876tMlY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataStructures.Edge.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataStructures.Edge.html",
+          "hash": "8vpEyF1V1huysfMfs2xAiJ+XBfjAx4l+1zrE0AiOWGA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataStructures.Graph.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataStructures.Graph.html",
+          "hash": "jwIbym6Rl3jx7VRYgS3xA6Ae7xUyCIcIdTlmoHQSxgQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataStructures.IData-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataStructures.IData-1.html",
+          "hash": "731zx8SXjwn4bhiiIvgkb9Yi5u+oR8nQaOH9DaS5Ggs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataStructures.IEdge-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataStructures.IEdge-1.html",
+          "hash": "Jrlc9DB1ROSQaggC2MtFY8uw2s42k2xnnnbDIMxXPVk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataStructures.IEdge.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataStructures.IEdge.html",
+          "hash": "qVjXLxGlZ2OzdincEcBfREhm3orrvXX98OZ7FiP5wVs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataStructures.INode-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataStructures.INode-1.html",
+          "hash": "OnsblElOEqe91lzHi049Vd2ZcfqKKa9AjLeret94YgE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataStructures.INodeParent-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataStructures.INodeParent-1.html",
+          "hash": "wi8cYrKX+A8TgzXhbe8Zi1MmzHOSArBcQ6Xf8ccusgA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataStructures.INodeTree-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataStructures.INodeTree-1.html",
+          "hash": "2jr4ixBlJpfM/vyHyAvG47DTISDnQPC+Nqt72CdN0vE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataStructures.IVertex-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataStructures.IVertex-1.html",
+          "hash": "W0AqVt/KnOHoXBYfxtS3FGU8bAWDwLE6MeEfX5Janhs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataStructures.IVertex.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataStructures.IVertex.html",
+          "hash": "A4/6m08LQLJTTSvUIb44efERaKSjpBJosTUyrE2pGwg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataStructures.PriorityQueue-1.PriorityNode-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataStructures.PriorityQueue-1.PriorityNode-1.html",
+          "hash": "N4NkGXT0kf2b8pekExHJeM4vZnEo4Cxbd+bSX2JkJKI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataStructures.PriorityQueue-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataStructures.PriorityQueue-1.html",
+          "hash": "A/h8PeXTHqQeyDXjxRO8NmjAulV5+1G4oAJD7Z/pCX4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataStructures.UI.AddVertexCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataStructures.UI.AddVertexCommand.html",
+          "hash": "rUCEKk+J9Ohz8E2jeOktr2uLdu7wRhWj1PVl5W63vR0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataStructures.UI.AdornerItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataStructures.UI.AdornerItem.html",
+          "hash": "VrrNBs7zOtoYr2W7858/t2bOw4jAvKlvtRXKz87ZGio="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataStructures.UI.Arrow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataStructures.UI.Arrow.html",
+          "hash": "Wf3JKCudEwuEB1mTLgxk/0Bb2vFujn1htc2sbzw2wi8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataStructures.UI.Converters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataStructures.UI.Converters.html",
+          "hash": "ewf6v1MSWzLqbqxJUG7gcXEVKeKV5EfPAoQ8zqe/A0E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataStructures.UI.DoubleAdderConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataStructures.UI.DoubleAdderConverter.html",
+          "hash": "m1YMtHyd2XLjpLbrCl0X3GFkP/2c1aYRWTJI13QZi5I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataStructures.UI.Edge-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataStructures.UI.Edge-1.html",
+          "hash": "9xq+G6t4EIUuLjbngi0sUAKpuHvf3ovTQyK5+G61waI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataStructures.UI.Edge.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataStructures.UI.Edge.html",
+          "hash": "ja/r5kK9q3aLvCndEfqEKTWwHBROYzFBpEi9MHa0Ncw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataStructures.UI.EdgeControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataStructures.UI.EdgeControl.html",
+          "hash": "vRrAuJafdVkU5murk10yQQgqJc8GdRHposn12MblUf0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataStructures.UI.GraphControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataStructures.UI.GraphControl.html",
+          "hash": "XBvujcCgDkiOi3cUMX8JcpWw4xhpDFhZmWdSRnR84K4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataStructures.UI.IntToStringConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataStructures.UI.IntToStringConverter.html",
+          "hash": "uf4Df1+fUqMu3mUU0aot9YwAzTzLlL4vNN0Y59pw5QQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataStructures.UI.LoadGraphCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataStructures.UI.LoadGraphCommand.html",
+          "hash": "+WhNWSG3cZwe8e4mMpZEyQXv/jpUgFrqUI9S4YAPt3I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataStructures.UI.PointAdderConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataStructures.UI.PointAdderConverter.html",
+          "hash": "HPtHtsVuMqD8C0zY0PbaptPEVjgrIosB+6ehJP4HtT0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataStructures.UI.SaveGraphCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataStructures.UI.SaveGraphCommand.html",
+          "hash": "YHU0f2G+UsPEXAjMQ3Kd8pVlr5H2J1Xb8TJjzpOmb0U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataStructures.UI.ShiftConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataStructures.UI.ShiftConverter.html",
+          "hash": "xJeqPTmBPMuqfnvpsKNrvKVwlv4tnTTbOlxA4ZMn3vM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataStructures.UI.Vertex-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataStructures.UI.Vertex-1.html",
+          "hash": "zI5fxr7XFeuZZsZM5skkUJ1kLq2qR/4QWWc/P5gyHfQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataStructures.UI.Vertex.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataStructures.UI.Vertex.html",
+          "hash": "B5GnC33+NsC1svZ2QI5yyIjQIh0OvsTnjatve0Hc8h8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataStructures.UI.VertexControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataStructures.UI.VertexControl.html",
+          "hash": "k1vyKy/Bz+dcADKPK0vbWlzXmYZzK/SbHKv3IKDbzTM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataStructures.UI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataStructures.UI.html",
+          "hash": "2TN+mFxCSM/sCL77kIHu/y6ugZSJqCVg4RESOsEerpo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataStructures.Vertex-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataStructures.Vertex-1.html",
+          "hash": "OVo4o4G4BEZs/Yb4YXkQ9Yi3aHYtOYYKSGd7LkzcdYQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataStructures.Vertex.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataStructures.Vertex.html",
+          "hash": "ePAJOS03gzKuLMTL2qB06J84MpagaVhGw9G+Ro1wDhw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataStructures.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataStructures.html",
+          "hash": "jFQh0Zgg8rIG5gU/gc2iN/eDaEmuq7XzSQneeVEHUbk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Mathematics.Mathematics.yml",
       "output": {
         ".html": {
           "relative_path": "api/Mathematics.Mathematics.html",
-          "hash": "pvsJG6KfPd42/YeXeHJZpcKWefMzJQSsqeg93RY1Ui8="
+          "hash": "QjwpxkpCYmqlvmJHaSqpF8yKELV57Vg8iNEmSJPXGOY="
         }
       },
       "is_incremental": false,
@@ -21,7 +585,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Mathematics.Matrix.html",
-          "hash": "LUIMiVUV3ckrcDZacVjxYIwtFRyFbIgCcGa9lROpUxI="
+          "hash": "PQAkUKDJNMBs/ZDuv5woavDuBg1ou35/hsT1qeSEqxk="
         }
       },
       "is_incremental": false,
@@ -33,7 +597,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Mathematics.html",
-          "hash": "8r1syBOv6bIdJ9uC6hroOpGsy68zR+M+EFsVbTsutgs="
+          "hash": "ZK/PJxt/7hUXKuDdoKdw2WBW+WW16DCTZ9qDJTFmRfE="
         }
       },
       "is_incremental": false,
@@ -45,7 +609,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "ARpHyoo1nVNAr5oQ7SwfORUqHfvoLBqcJJ5iYdRhkrs="
+          "hash": "dZQeb/+AhD96KtI/+aOk1cp03eKoCNEiBGldO/LF4sk="
         }
       },
       "is_incremental": false,
@@ -57,7 +621,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "wpcB4je/jsUERcxs8R2txsRMN6vDS2H1lCqjv9FIhQA="
+          "hash": "oAp0opID5K6lJ11JKGMB4aZQg5RbJTdygsWEQk07vPk="
         }
       },
       "is_incremental": false,
@@ -69,7 +633,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/GraphControl.html",
-          "hash": "tNMfNypcPa2TOQWwySJ9Uohucij0q0ysioAOcYJrdRo="
+          "hash": "r7Xd77VEW2aw8Wv0HwnPjxK7+aXoFCwKjUSZB40r8M0="
         }
       },
       "is_incremental": false,
@@ -93,7 +657,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "mQ3e2+cBB8YRWrWXZ5y52HLsV1rFMNkcRR7FLKGm+RA="
+          "hash": "mxzFqeBXaFvIA4A7PzDQRhqhsqwwovv8B7xzc/I+1FM="
         }
       },
       "is_incremental": false,
@@ -132,7 +696,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 3,
+          "total_file_count": 50,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
