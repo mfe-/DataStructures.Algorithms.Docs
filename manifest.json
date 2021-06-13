@@ -4,12 +4,21 @@
   "xrefmap": "xrefmap.yml",
   "files": [
     {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
       "type": "ManagedReference",
       "source_relative_path": "api/DataStructures.AbstractTree-2.yml",
       "output": {
         ".html": {
           "relative_path": "api/DataStructures.AbstractTree-2.html",
-          "hash": "Y4D0I5LCoBmtaq8G5jMV4tqeiA5ydzMhqcouqOEA9Go="
+          "hash": "3DKzAypvrJq2ecNfgiEHJYnpdYf3XomAuYRfpnZALN8="
         }
       },
       "is_incremental": false,
@@ -21,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DataStructures.Algorithms.Graph.GraphExtensions.AEdge.html",
-          "hash": "pWfpPvcHSJGMSzBMuGIVj5nIkz62kdee9vr1KL7NIDc="
+          "hash": "MfAccl0b5fwj0GFUOVpiGLPp+CQZCM7wySHl12DzJN8="
         }
       },
       "is_incremental": false,
@@ -33,7 +42,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DataStructures.Algorithms.Graph.GraphExtensions.VertexSerializationSurrogate.html",
-          "hash": "+Afsog3z0dzprgKPSma7T2YRfsza/0mjUdDbVhemb3Q="
+          "hash": "naN/R0bUTaw9kc4SPayyXqV2v9iE3r+oIX0fGnOvke0="
         }
       },
       "is_incremental": false,
@@ -45,7 +54,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DataStructures.Algorithms.Graph.GraphExtensions.html",
-          "hash": "q6LeiA9rpmYkd1r3mPd6vI/fbA2w6Z3PNJSJq/AQIW4="
+          "hash": "R1bjRKkxaydMUgOgfPkmhsWBdpI+Cl4O9HCJrehvgcQ="
         }
       },
       "is_incremental": false,
@@ -57,7 +66,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DataStructures.Algorithms.Graph.VertexEdgeMapResolver.html",
-          "hash": "vOwFjQqmR2kWVeEIirzib8knt4UEozENJsWhWQPwGg8="
+          "hash": "ixG4PYzRZWDMYZXqDviPVPf5IKF1Yak/gJLd4KUb298="
         }
       },
       "is_incremental": false,
@@ -69,7 +78,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DataStructures.Algorithms.Graph.html",
-          "hash": "gkQWXxIuibfytMiyAyDbjAgLc7bETMn35yeN0MNKFLA="
+          "hash": "jBhOk8Drh2CbHAztrd0XQg7bGCFOhybejN6h3UP7e0M="
         }
       },
       "is_incremental": false,
@@ -81,7 +90,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DataStructures.Algorithms.Search.html",
-          "hash": "tkjgS87iynNEtFsfoV8dNGi5ThOJQ0hjCUbZHrG06ZI="
+          "hash": "a4Tn99y5KQXYSOdZ1NOqTuRNZKzg5FwrpbOhDQYUw9g="
         }
       },
       "is_incremental": false,
@@ -93,7 +102,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DataStructures.Algorithms.Sort.html",
-          "hash": "9tnqioc5T/xdJLW1ZaFUx4OfpBhUxGklTd9yTnnqGlo="
+          "hash": "+k3M0hCkh/UjMGwEiCcaVNir6BKihyuMo8lUirSme54="
         }
       },
       "is_incremental": false,
@@ -105,7 +114,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DataStructures.Algorithms.html",
-          "hash": "zay9S7dlciJv36WBleym/s8RDcmqGPqig3JCQ3UTed4="
+          "hash": "NWPDtvZnLw987/4BqtYGJrMuFPLb1OzArkET/rYVQhE="
         }
       },
       "is_incremental": false,
@@ -117,7 +126,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DataStructures.AvlTree-1.ANodeLeafe-1.html",
-          "hash": "GehJFpUE3DJ6XABOTAuiv9Y8ieknJ0/P8iJnsnDGwlQ="
+          "hash": "FWRqmVHAmsqNo1uZ918cqxtpAlZirGw7YxoAh6pUS74="
         }
       },
       "is_incremental": false,
@@ -129,7 +138,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DataStructures.AvlTree-1.html",
-          "hash": "vuWg5xNlMo95coNecBkYeZv+Rlwl0Z8XAb6bTan5qhw="
+          "hash": "VOcrkocfdR9rYtvbmDMR89xXuTODga6ICpzhZe9tlW8="
         }
       },
       "is_incremental": false,
@@ -141,7 +150,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DataStructures.BinarySearchTree-1.BNode-1.html",
-          "hash": "rpaK2GONlrJeG8vTdbxXmkDyv/WdhFagUoMlAXWjFAU="
+          "hash": "BVg3klLJLhWg356fA4tvWzveYULTeMfSUaqLVqNCQ3A="
         }
       },
       "is_incremental": false,
@@ -153,7 +162,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DataStructures.BinarySearchTree-1.html",
-          "hash": "nhC/1XNgaebchrvOzKSmxQ0xRf1KMwkM/dzp1+bldc4="
+          "hash": "opn9GH8N38CogqGYhHTscrRPSFZEDxlx6pDSzNmRvoY="
         }
       },
       "is_incremental": false,
@@ -165,7 +174,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DataStructures.Edge-1.html",
-          "hash": "xbZW7t40W3qZkecGhqBcqnZIkOpQ/ANx8n54876tMlY="
+          "hash": "mY9LMznpKHSoJWGlUzKnOqpj2eHOpKUxMWrZ/if83HA="
         }
       },
       "is_incremental": false,
@@ -177,7 +186,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DataStructures.Edge.html",
-          "hash": "8vpEyF1V1huysfMfs2xAiJ+XBfjAx4l+1zrE0AiOWGA="
+          "hash": "DBFAnNk9e1IIndV1PH1QKlDj9L5Bdp3RkNbRy9h7TFg="
         }
       },
       "is_incremental": false,
@@ -189,7 +198,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DataStructures.Graph.html",
-          "hash": "jwIbym6Rl3jx7VRYgS3xA6Ae7xUyCIcIdTlmoHQSxgQ="
+          "hash": "X/691x5MIsdh5TFlma/8s5o1X8DxEIti/srHqRZTFxI="
         }
       },
       "is_incremental": false,
@@ -201,7 +210,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DataStructures.IData-1.html",
-          "hash": "731zx8SXjwn4bhiiIvgkb9Yi5u+oR8nQaOH9DaS5Ggs="
+          "hash": "iOrTLRGT36nc6xpmdvbceqIAbL7zCSiCGcnSwLH+wv8="
         }
       },
       "is_incremental": false,
@@ -213,7 +222,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DataStructures.IEdge-1.html",
-          "hash": "Jrlc9DB1ROSQaggC2MtFY8uw2s42k2xnnnbDIMxXPVk="
+          "hash": "EvfmWbCGq1d68By+V/ilm6+CvgccMrDD5wb7rBBVhh0="
         }
       },
       "is_incremental": false,
@@ -225,7 +234,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DataStructures.IEdge.html",
-          "hash": "qVjXLxGlZ2OzdincEcBfREhm3orrvXX98OZ7FiP5wVs="
+          "hash": "A+HAB/RBOx6RxOF3zLv82Cndh/C4W/zVd2SHECwdfhw="
         }
       },
       "is_incremental": false,
@@ -237,7 +246,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DataStructures.INode-1.html",
-          "hash": "OnsblElOEqe91lzHi049Vd2ZcfqKKa9AjLeret94YgE="
+          "hash": "d46p5ONOn+Gqrdp08ZdSVLzeYmR7Xi69+cGLchIKhg0="
         }
       },
       "is_incremental": false,
@@ -249,7 +258,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DataStructures.INodeParent-1.html",
-          "hash": "wi8cYrKX+A8TgzXhbe8Zi1MmzHOSArBcQ6Xf8ccusgA="
+          "hash": "CV+gfdJiCy3TkebBF6vj2g9r4V1wrwIs4PE8FKbMsVI="
         }
       },
       "is_incremental": false,
@@ -261,7 +270,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DataStructures.INodeTree-1.html",
-          "hash": "2jr4ixBlJpfM/vyHyAvG47DTISDnQPC+Nqt72CdN0vE="
+          "hash": "1+PKYobSU/GZj7LRawniRm2NCIbd0+2Q1moZ433H/Dg="
         }
       },
       "is_incremental": false,
@@ -273,7 +282,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DataStructures.IVertex-1.html",
-          "hash": "W0AqVt/KnOHoXBYfxtS3FGU8bAWDwLE6MeEfX5Janhs="
+          "hash": "SyyuV513htDrvG3Xzx9eb6TniOQ0aY9+8QfbAzLTZjg="
         }
       },
       "is_incremental": false,
@@ -285,7 +294,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DataStructures.IVertex.html",
-          "hash": "A4/6m08LQLJTTSvUIb44efERaKSjpBJosTUyrE2pGwg="
+          "hash": "0Tft0G7mSxo+Z7rxCIVyYMqeDoj3EYduRJwGab1L7/M="
         }
       },
       "is_incremental": false,
@@ -297,7 +306,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DataStructures.PriorityQueue-1.PriorityNode-1.html",
-          "hash": "N4NkGXT0kf2b8pekExHJeM4vZnEo4Cxbd+bSX2JkJKI="
+          "hash": "IMJpQ8ZTYe8zlPfP+vulK1X6OcIUyVaBNqLWCr8Y+ik="
         }
       },
       "is_incremental": false,
@@ -309,7 +318,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DataStructures.PriorityQueue-1.html",
-          "hash": "A/h8PeXTHqQeyDXjxRO8NmjAulV5+1G4oAJD7Z/pCX4="
+          "hash": "b271QShzzsOfwEeWSWagx6spjGLq8rQcSY7ppWHT9oc="
         }
       },
       "is_incremental": false,
@@ -321,7 +330,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DataStructures.UI.AddVertexCommand.html",
-          "hash": "rUCEKk+J9Ohz8E2jeOktr2uLdu7wRhWj1PVl5W63vR0="
+          "hash": "Zvm9qTRk2Vk0kssTbDl9Lv4EQTiFQRTjbvPuKwJKeWA="
         }
       },
       "is_incremental": false,
@@ -333,7 +342,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DataStructures.UI.AdornerItem.html",
-          "hash": "VrrNBs7zOtoYr2W7858/t2bOw4jAvKlvtRXKz87ZGio="
+          "hash": "2P54RrwhoUvccK3zdSg1035ZE9kzdFhYNU5ilQ0aRDs="
         }
       },
       "is_incremental": false,
@@ -345,7 +354,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DataStructures.UI.Arrow.html",
-          "hash": "Wf3JKCudEwuEB1mTLgxk/0Bb2vFujn1htc2sbzw2wi8="
+          "hash": "H3mibA3M09Lx0PKLXBnyCUySx5N64ufqQ4zisJl+W+g="
         }
       },
       "is_incremental": false,
@@ -357,7 +366,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DataStructures.UI.Converters.html",
-          "hash": "ewf6v1MSWzLqbqxJUG7gcXEVKeKV5EfPAoQ8zqe/A0E="
+          "hash": "SLSS9sctdrM3vmZ1zJi/a9ZJLZzU8yvbSuT0l5NLRM0="
         }
       },
       "is_incremental": false,
@@ -369,7 +378,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DataStructures.UI.DoubleAdderConverter.html",
-          "hash": "m1YMtHyd2XLjpLbrCl0X3GFkP/2c1aYRWTJI13QZi5I="
+          "hash": "Xwjq4WvTSX+3iy2tH7W79bwOP9ZXOUbBfHCrWnvQfp8="
         }
       },
       "is_incremental": false,
@@ -381,7 +390,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DataStructures.UI.Edge-1.html",
-          "hash": "9xq+G6t4EIUuLjbngi0sUAKpuHvf3ovTQyK5+G61waI="
+          "hash": "KJbQ45hR9p0RdDeryZ7Vn5k7yho6onR06L4ohw/zGdg="
         }
       },
       "is_incremental": false,
@@ -393,7 +402,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DataStructures.UI.Edge.html",
-          "hash": "ja/r5kK9q3aLvCndEfqEKTWwHBROYzFBpEi9MHa0Ncw="
+          "hash": "RbQgTsTa8jhoBwRl32ykTRkdhzuJKwxBWCafpf6OpXI="
         }
       },
       "is_incremental": false,
@@ -405,7 +414,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DataStructures.UI.EdgeControl.html",
-          "hash": "vRrAuJafdVkU5murk10yQQgqJc8GdRHposn12MblUf0="
+          "hash": "bThwzBqTMCJvneplSc7qzeG9YOcG5cyk0WZKaoIyrxA="
         }
       },
       "is_incremental": false,
@@ -417,7 +426,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DataStructures.UI.GraphControl.html",
-          "hash": "XBvujcCgDkiOi3cUMX8JcpWw4xhpDFhZmWdSRnR84K4="
+          "hash": "omO+Gfe7UpA4E59qcBUu7IdCgyaP1TE2oZ4JpDRcA/M="
         }
       },
       "is_incremental": false,
@@ -429,7 +438,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DataStructures.UI.IntToStringConverter.html",
-          "hash": "uf4Df1+fUqMu3mUU0aot9YwAzTzLlL4vNN0Y59pw5QQ="
+          "hash": "7NfQsZ7DcA+4863aBAVObO3yXWiT3BDhbMHskhpQfwk="
         }
       },
       "is_incremental": false,
@@ -441,7 +450,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DataStructures.UI.LoadGraphCommand.html",
-          "hash": "+WhNWSG3cZwe8e4mMpZEyQXv/jpUgFrqUI9S4YAPt3I="
+          "hash": "vVCUfOPFfsx6V5aJC0PS8FJZndv8hutG7UqXVM47EG8="
         }
       },
       "is_incremental": false,
@@ -453,7 +462,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DataStructures.UI.PointAdderConverter.html",
-          "hash": "HPtHtsVuMqD8C0zY0PbaptPEVjgrIosB+6ehJP4HtT0="
+          "hash": "a1UfEodIRDjFPl+XSUi9e7sctvr/lcVmRlxLWQoD6OI="
         }
       },
       "is_incremental": false,
@@ -465,7 +474,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DataStructures.UI.SaveGraphCommand.html",
-          "hash": "YHU0f2G+UsPEXAjMQ3Kd8pVlr5H2J1Xb8TJjzpOmb0U="
+          "hash": "QEvhGOCWXIRxT3U01zBnElj1zcZ371nzbN4JJdVtT14="
         }
       },
       "is_incremental": false,
@@ -477,7 +486,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DataStructures.UI.ShiftConverter.html",
-          "hash": "xJeqPTmBPMuqfnvpsKNrvKVwlv4tnTTbOlxA4ZMn3vM="
+          "hash": "HuvlZzmER+Hb7gYzMBMGhmhHY/Jp1u3ARmDuAHRWd4I="
         }
       },
       "is_incremental": false,
@@ -489,7 +498,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DataStructures.UI.Vertex-1.html",
-          "hash": "zI5fxr7XFeuZZsZM5skkUJ1kLq2qR/4QWWc/P5gyHfQ="
+          "hash": "cNFF8eFDnXRu9D6sPyxPgNIHy7NX9lcf41Ld86NjW5I="
         }
       },
       "is_incremental": false,
@@ -501,7 +510,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DataStructures.UI.Vertex.html",
-          "hash": "B5GnC33+NsC1svZ2QI5yyIjQIh0OvsTnjatve0Hc8h8="
+          "hash": "rSHRObSHkQ38xin6d3ddXPZVHqZh0cJGV112fXDS6lw="
         }
       },
       "is_incremental": false,
@@ -513,7 +522,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DataStructures.UI.VertexControl.html",
-          "hash": "k1vyKy/Bz+dcADKPK0vbWlzXmYZzK/SbHKv3IKDbzTM="
+          "hash": "OuPUVdzmbIr+9ddqzkTdkrEHa1HMYZD+yBNVDd5XPQY="
         }
       },
       "is_incremental": false,
@@ -525,7 +534,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DataStructures.UI.html",
-          "hash": "2TN+mFxCSM/sCL77kIHu/y6ugZSJqCVg4RESOsEerpo="
+          "hash": "9+TzsKB+Xtau/arTwEkmQr1QnPj4Qa7uk+2NSVu02cc="
         }
       },
       "is_incremental": false,
@@ -537,7 +546,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DataStructures.Vertex-1.html",
-          "hash": "OVo4o4G4BEZs/Yb4YXkQ9Yi3aHYtOYYKSGd7LkzcdYQ="
+          "hash": "ZgMoOGQdnHLnf6Lrro0Tt1+MoWu6yAyKLfMU+5OGi0g="
         }
       },
       "is_incremental": false,
@@ -549,7 +558,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DataStructures.Vertex.html",
-          "hash": "ePAJOS03gzKuLMTL2qB06J84MpagaVhGw9G+Ro1wDhw="
+          "hash": "fUmkWT5MhL+SFTXgrh+YBEoIS2Wc5tpbCqncLQPyewc="
         }
       },
       "is_incremental": false,
@@ -561,7 +570,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DataStructures.html",
-          "hash": "jFQh0Zgg8rIG5gU/gc2iN/eDaEmuq7XzSQneeVEHUbk="
+          "hash": "YSQXFg2hUqNhKWHBfDe4FhrPR3QxfKeo2622nIbjWP0="
         }
       },
       "is_incremental": false,
@@ -573,7 +582,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Mathematics.Mathematics.html",
-          "hash": "QjwpxkpCYmqlvmJHaSqpF8yKELV57Vg8iNEmSJPXGOY="
+          "hash": "+3zUoBC4ZiWlvXQ8f3IST5pHlsJwRHgmXiymQO/Z2OQ="
         }
       },
       "is_incremental": false,
@@ -585,7 +594,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Mathematics.Matrix.html",
-          "hash": "PQAkUKDJNMBs/ZDuv5woavDuBg1ou35/hsT1qeSEqxk="
+          "hash": "7zFQOneLG5PsjUl2v+8cVH51w69rB8DEr90sH6xM5F8="
         }
       },
       "is_incremental": false,
@@ -597,7 +606,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Mathematics.html",
-          "hash": "ZK/PJxt/7hUXKuDdoKdw2WBW+WW16DCTZ9qDJTFmRfE="
+          "hash": "R5o/6ipimAJS/lpYje3c8wUC9RRK+YS81E4bfPyPfgo="
         }
       },
       "is_incremental": false,
@@ -609,7 +618,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "dZQeb/+AhD96KtI/+aOk1cp03eKoCNEiBGldO/LF4sk="
+          "hash": "upwvz2aCiTSDPTCvHxrrk0EPJFBATiJWIoLK1ac+9gg="
         }
       },
       "is_incremental": false,
@@ -633,7 +642,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/GraphControl.html",
-          "hash": "r7Xd77VEW2aw8Wv0HwnPjxK7+aXoFCwKjUSZB40r8M0="
+          "hash": "c4wKgZlH7oloOhxg9tbUdposQapPR+ia9brdG7UVEng="
         }
       },
       "is_incremental": false,
@@ -657,7 +666,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "mxzFqeBXaFvIA4A7PzDQRhqhsqwwovv8B7xzc/I+1FM="
+          "hash": "fiJbyDhobuR/Fr190Gk1wChvWkbckmqdq36878XOFuU="
         }
       },
       "is_incremental": false,
@@ -696,7 +705,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 50,
+          "total_file_count": 51,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
@@ -711,7 +720,7 @@
     {
       "status": {
         "can_incremental": false,
-        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
         "incrementalPhase": "postProcessing",
         "total_file_count": 0,
         "skipped_file_count": 0
