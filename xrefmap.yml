@@ -976,6 +976,134 @@ references:
   fullName.vb: DataStructures.Algorithms.Sort.Transpose_Sort(Of T)(System.Collections.Generic.IList(Of T))
   nameWithType: Sort.Transpose_Sort<T>(IList<T>)
   nameWithType.vb: Sort.Transpose_Sort(Of T)(IList(Of T))
+- uid: DataStructures.AvlNode`1
+  name: AvlNode<TData>
+  href: api/DataStructures.AvlNode-1.html
+  commentId: T:DataStructures.AvlNode`1
+  name.vb: AvlNode(Of TData)
+  fullName: DataStructures.AvlNode<TData>
+  fullName.vb: DataStructures.AvlNode(Of TData)
+  nameWithType: AvlNode<TData>
+  nameWithType.vb: AvlNode(Of TData)
+- uid: DataStructures.AvlNode`1.#ctor(System.IComparable,`0)
+  name: AvlNode(IComparable, TData)
+  href: api/DataStructures.AvlNode-1.html#DataStructures_AvlNode_1__ctor_System_IComparable__0_
+  commentId: M:DataStructures.AvlNode`1.#ctor(System.IComparable,`0)
+  fullName: DataStructures.AvlNode<TData>.AvlNode(System.IComparable, TData)
+  fullName.vb: DataStructures.AvlNode(Of TData).AvlNode(System.IComparable, TData)
+  nameWithType: AvlNode<TData>.AvlNode(IComparable, TData)
+  nameWithType.vb: AvlNode(Of TData).AvlNode(IComparable, TData)
+- uid: DataStructures.AvlNode`1.#ctor*
+  name: AvlNode
+  href: api/DataStructures.AvlNode-1.html#DataStructures_AvlNode_1__ctor_
+  commentId: Overload:DataStructures.AvlNode`1.#ctor
+  isSpec: "True"
+  fullName: DataStructures.AvlNode<TData>.AvlNode
+  fullName.vb: DataStructures.AvlNode(Of TData).AvlNode
+  nameWithType: AvlNode<TData>.AvlNode
+  nameWithType.vb: AvlNode(Of TData).AvlNode
+- uid: DataStructures.AvlNode`1.Balance
+  name: Balance
+  href: api/DataStructures.AvlNode-1.html#DataStructures_AvlNode_1_Balance
+  commentId: P:DataStructures.AvlNode`1.Balance
+  fullName: DataStructures.AvlNode<TData>.Balance
+  fullName.vb: DataStructures.AvlNode(Of TData).Balance
+  nameWithType: AvlNode<TData>.Balance
+  nameWithType.vb: AvlNode(Of TData).Balance
+- uid: DataStructures.AvlNode`1.Balance*
+  name: Balance
+  href: api/DataStructures.AvlNode-1.html#DataStructures_AvlNode_1_Balance_
+  commentId: Overload:DataStructures.AvlNode`1.Balance
+  isSpec: "True"
+  fullName: DataStructures.AvlNode<TData>.Balance
+  fullName.vb: DataStructures.AvlNode(Of TData).Balance
+  nameWithType: AvlNode<TData>.Balance
+  nameWithType.vb: AvlNode(Of TData).Balance
+- uid: DataStructures.AvlNode`1.Key
+  name: Key
+  href: api/DataStructures.AvlNode-1.html#DataStructures_AvlNode_1_Key
+  commentId: P:DataStructures.AvlNode`1.Key
+  fullName: DataStructures.AvlNode<TData>.Key
+  fullName.vb: DataStructures.AvlNode(Of TData).Key
+  nameWithType: AvlNode<TData>.Key
+  nameWithType.vb: AvlNode(Of TData).Key
+- uid: DataStructures.AvlNode`1.Key*
+  name: Key
+  href: api/DataStructures.AvlNode-1.html#DataStructures_AvlNode_1_Key_
+  commentId: Overload:DataStructures.AvlNode`1.Key
+  isSpec: "True"
+  fullName: DataStructures.AvlNode<TData>.Key
+  fullName.vb: DataStructures.AvlNode(Of TData).Key
+  nameWithType: AvlNode<TData>.Key
+  nameWithType.vb: AvlNode(Of TData).Key
+- uid: DataStructures.AvlNode`1.P
+  name: P
+  href: api/DataStructures.AvlNode-1.html#DataStructures_AvlNode_1_P
+  commentId: P:DataStructures.AvlNode`1.P
+  fullName: DataStructures.AvlNode<TData>.P
+  fullName.vb: DataStructures.AvlNode(Of TData).P
+  nameWithType: AvlNode<TData>.P
+  nameWithType.vb: AvlNode(Of TData).P
+- uid: DataStructures.AvlNode`1.P*
+  name: P
+  href: api/DataStructures.AvlNode-1.html#DataStructures_AvlNode_1_P_
+  commentId: Overload:DataStructures.AvlNode`1.P
+  isSpec: "True"
+  fullName: DataStructures.AvlNode<TData>.P
+  fullName.vb: DataStructures.AvlNode(Of TData).P
+  nameWithType: AvlNode<TData>.P
+  nameWithType.vb: AvlNode(Of TData).P
+- uid: DataStructures.AvlNode`1.U
+  name: U
+  href: api/DataStructures.AvlNode-1.html#DataStructures_AvlNode_1_U
+  commentId: P:DataStructures.AvlNode`1.U
+  fullName: DataStructures.AvlNode<TData>.U
+  fullName.vb: DataStructures.AvlNode(Of TData).U
+  nameWithType: AvlNode<TData>.U
+  nameWithType.vb: AvlNode(Of TData).U
+- uid: DataStructures.AvlNode`1.U*
+  name: U
+  href: api/DataStructures.AvlNode-1.html#DataStructures_AvlNode_1_U_
+  commentId: Overload:DataStructures.AvlNode`1.U
+  isSpec: "True"
+  fullName: DataStructures.AvlNode<TData>.U
+  fullName.vb: DataStructures.AvlNode(Of TData).U
+  nameWithType: AvlNode<TData>.U
+  nameWithType.vb: AvlNode(Of TData).U
+- uid: DataStructures.AvlNode`1.V
+  name: V
+  href: api/DataStructures.AvlNode-1.html#DataStructures_AvlNode_1_V
+  commentId: P:DataStructures.AvlNode`1.V
+  fullName: DataStructures.AvlNode<TData>.V
+  fullName.vb: DataStructures.AvlNode(Of TData).V
+  nameWithType: AvlNode<TData>.V
+  nameWithType.vb: AvlNode(Of TData).V
+- uid: DataStructures.AvlNode`1.V*
+  name: V
+  href: api/DataStructures.AvlNode-1.html#DataStructures_AvlNode_1_V_
+  commentId: Overload:DataStructures.AvlNode`1.V
+  isSpec: "True"
+  fullName: DataStructures.AvlNode<TData>.V
+  fullName.vb: DataStructures.AvlNode(Of TData).V
+  nameWithType: AvlNode<TData>.V
+  nameWithType.vb: AvlNode(Of TData).V
+- uid: DataStructures.AvlNode`1.Value
+  name: Value
+  href: api/DataStructures.AvlNode-1.html#DataStructures_AvlNode_1_Value
+  commentId: P:DataStructures.AvlNode`1.Value
+  fullName: DataStructures.AvlNode<TData>.Value
+  fullName.vb: DataStructures.AvlNode(Of TData).Value
+  nameWithType: AvlNode<TData>.Value
+  nameWithType.vb: AvlNode(Of TData).Value
+- uid: DataStructures.AvlNode`1.Value*
+  name: Value
+  href: api/DataStructures.AvlNode-1.html#DataStructures_AvlNode_1_Value_
+  commentId: Overload:DataStructures.AvlNode`1.Value
+  isSpec: "True"
+  fullName: DataStructures.AvlNode<TData>.Value
+  fullName.vb: DataStructures.AvlNode(Of TData).Value
+  nameWithType: AvlNode<TData>.Value
+  nameWithType.vb: AvlNode(Of TData).Value
 - uid: DataStructures.AvlTree`1
   name: AvlTree<TData>
   href: api/DataStructures.AvlTree-1.html
@@ -1028,134 +1156,6 @@ references:
   fullName.vb: DataStructures.AvlTree(Of TData).Add
   nameWithType: AvlTree<TData>.Add
   nameWithType.vb: AvlTree(Of TData).Add
-- uid: DataStructures.AvlTree`1.ANodeLeafe`1
-  name: AvlTree<TData>.ANodeLeafe<TData1>
-  href: api/DataStructures.AvlTree-1.ANodeLeafe-1.html
-  commentId: T:DataStructures.AvlTree`1.ANodeLeafe`1
-  name.vb: AvlTree(Of TData).ANodeLeafe(Of TData1)
-  fullName: DataStructures.AvlTree<TData>.ANodeLeafe<TData1>
-  fullName.vb: DataStructures.AvlTree(Of TData).ANodeLeafe(Of TData1)
-  nameWithType: AvlTree<TData>.ANodeLeafe<TData1>
-  nameWithType.vb: AvlTree(Of TData).ANodeLeafe(Of TData1)
-- uid: DataStructures.AvlTree`1.ANodeLeafe`1.#ctor(System.IComparable,`1)
-  name: ANodeLeafe(IComparable, TData1)
-  href: api/DataStructures.AvlTree-1.ANodeLeafe-1.html#DataStructures_AvlTree_1_ANodeLeafe_1__ctor_System_IComparable__1_
-  commentId: M:DataStructures.AvlTree`1.ANodeLeafe`1.#ctor(System.IComparable,`1)
-  fullName: DataStructures.AvlTree<TData>.ANodeLeafe<TData1>.ANodeLeafe(System.IComparable, TData1)
-  fullName.vb: DataStructures.AvlTree(Of TData).ANodeLeafe(Of TData1).ANodeLeafe(System.IComparable, TData1)
-  nameWithType: AvlTree<TData>.ANodeLeafe<TData1>.ANodeLeafe(IComparable, TData1)
-  nameWithType.vb: AvlTree(Of TData).ANodeLeafe(Of TData1).ANodeLeafe(IComparable, TData1)
-- uid: DataStructures.AvlTree`1.ANodeLeafe`1.#ctor*
-  name: ANodeLeafe
-  href: api/DataStructures.AvlTree-1.ANodeLeafe-1.html#DataStructures_AvlTree_1_ANodeLeafe_1__ctor_
-  commentId: Overload:DataStructures.AvlTree`1.ANodeLeafe`1.#ctor
-  isSpec: "True"
-  fullName: DataStructures.AvlTree<TData>.ANodeLeafe<TData1>.ANodeLeafe
-  fullName.vb: DataStructures.AvlTree(Of TData).ANodeLeafe(Of TData1).ANodeLeafe
-  nameWithType: AvlTree<TData>.ANodeLeafe<TData1>.ANodeLeafe
-  nameWithType.vb: AvlTree(Of TData).ANodeLeafe(Of TData1).ANodeLeafe
-- uid: DataStructures.AvlTree`1.ANodeLeafe`1.Balance
-  name: Balance
-  href: api/DataStructures.AvlTree-1.ANodeLeafe-1.html#DataStructures_AvlTree_1_ANodeLeafe_1_Balance
-  commentId: P:DataStructures.AvlTree`1.ANodeLeafe`1.Balance
-  fullName: DataStructures.AvlTree<TData>.ANodeLeafe<TData1>.Balance
-  fullName.vb: DataStructures.AvlTree(Of TData).ANodeLeafe(Of TData1).Balance
-  nameWithType: AvlTree<TData>.ANodeLeafe<TData1>.Balance
-  nameWithType.vb: AvlTree(Of TData).ANodeLeafe(Of TData1).Balance
-- uid: DataStructures.AvlTree`1.ANodeLeafe`1.Balance*
-  name: Balance
-  href: api/DataStructures.AvlTree-1.ANodeLeafe-1.html#DataStructures_AvlTree_1_ANodeLeafe_1_Balance_
-  commentId: Overload:DataStructures.AvlTree`1.ANodeLeafe`1.Balance
-  isSpec: "True"
-  fullName: DataStructures.AvlTree<TData>.ANodeLeafe<TData1>.Balance
-  fullName.vb: DataStructures.AvlTree(Of TData).ANodeLeafe(Of TData1).Balance
-  nameWithType: AvlTree<TData>.ANodeLeafe<TData1>.Balance
-  nameWithType.vb: AvlTree(Of TData).ANodeLeafe(Of TData1).Balance
-- uid: DataStructures.AvlTree`1.ANodeLeafe`1.Key
-  name: Key
-  href: api/DataStructures.AvlTree-1.ANodeLeafe-1.html#DataStructures_AvlTree_1_ANodeLeafe_1_Key
-  commentId: P:DataStructures.AvlTree`1.ANodeLeafe`1.Key
-  fullName: DataStructures.AvlTree<TData>.ANodeLeafe<TData1>.Key
-  fullName.vb: DataStructures.AvlTree(Of TData).ANodeLeafe(Of TData1).Key
-  nameWithType: AvlTree<TData>.ANodeLeafe<TData1>.Key
-  nameWithType.vb: AvlTree(Of TData).ANodeLeafe(Of TData1).Key
-- uid: DataStructures.AvlTree`1.ANodeLeafe`1.Key*
-  name: Key
-  href: api/DataStructures.AvlTree-1.ANodeLeafe-1.html#DataStructures_AvlTree_1_ANodeLeafe_1_Key_
-  commentId: Overload:DataStructures.AvlTree`1.ANodeLeafe`1.Key
-  isSpec: "True"
-  fullName: DataStructures.AvlTree<TData>.ANodeLeafe<TData1>.Key
-  fullName.vb: DataStructures.AvlTree(Of TData).ANodeLeafe(Of TData1).Key
-  nameWithType: AvlTree<TData>.ANodeLeafe<TData1>.Key
-  nameWithType.vb: AvlTree(Of TData).ANodeLeafe(Of TData1).Key
-- uid: DataStructures.AvlTree`1.ANodeLeafe`1.P
-  name: P
-  href: api/DataStructures.AvlTree-1.ANodeLeafe-1.html#DataStructures_AvlTree_1_ANodeLeafe_1_P
-  commentId: P:DataStructures.AvlTree`1.ANodeLeafe`1.P
-  fullName: DataStructures.AvlTree<TData>.ANodeLeafe<TData1>.P
-  fullName.vb: DataStructures.AvlTree(Of TData).ANodeLeafe(Of TData1).P
-  nameWithType: AvlTree<TData>.ANodeLeafe<TData1>.P
-  nameWithType.vb: AvlTree(Of TData).ANodeLeafe(Of TData1).P
-- uid: DataStructures.AvlTree`1.ANodeLeafe`1.P*
-  name: P
-  href: api/DataStructures.AvlTree-1.ANodeLeafe-1.html#DataStructures_AvlTree_1_ANodeLeafe_1_P_
-  commentId: Overload:DataStructures.AvlTree`1.ANodeLeafe`1.P
-  isSpec: "True"
-  fullName: DataStructures.AvlTree<TData>.ANodeLeafe<TData1>.P
-  fullName.vb: DataStructures.AvlTree(Of TData).ANodeLeafe(Of TData1).P
-  nameWithType: AvlTree<TData>.ANodeLeafe<TData1>.P
-  nameWithType.vb: AvlTree(Of TData).ANodeLeafe(Of TData1).P
-- uid: DataStructures.AvlTree`1.ANodeLeafe`1.U
-  name: U
-  href: api/DataStructures.AvlTree-1.ANodeLeafe-1.html#DataStructures_AvlTree_1_ANodeLeafe_1_U
-  commentId: P:DataStructures.AvlTree`1.ANodeLeafe`1.U
-  fullName: DataStructures.AvlTree<TData>.ANodeLeafe<TData1>.U
-  fullName.vb: DataStructures.AvlTree(Of TData).ANodeLeafe(Of TData1).U
-  nameWithType: AvlTree<TData>.ANodeLeafe<TData1>.U
-  nameWithType.vb: AvlTree(Of TData).ANodeLeafe(Of TData1).U
-- uid: DataStructures.AvlTree`1.ANodeLeafe`1.U*
-  name: U
-  href: api/DataStructures.AvlTree-1.ANodeLeafe-1.html#DataStructures_AvlTree_1_ANodeLeafe_1_U_
-  commentId: Overload:DataStructures.AvlTree`1.ANodeLeafe`1.U
-  isSpec: "True"
-  fullName: DataStructures.AvlTree<TData>.ANodeLeafe<TData1>.U
-  fullName.vb: DataStructures.AvlTree(Of TData).ANodeLeafe(Of TData1).U
-  nameWithType: AvlTree<TData>.ANodeLeafe<TData1>.U
-  nameWithType.vb: AvlTree(Of TData).ANodeLeafe(Of TData1).U
-- uid: DataStructures.AvlTree`1.ANodeLeafe`1.V
-  name: V
-  href: api/DataStructures.AvlTree-1.ANodeLeafe-1.html#DataStructures_AvlTree_1_ANodeLeafe_1_V
-  commentId: P:DataStructures.AvlTree`1.ANodeLeafe`1.V
-  fullName: DataStructures.AvlTree<TData>.ANodeLeafe<TData1>.V
-  fullName.vb: DataStructures.AvlTree(Of TData).ANodeLeafe(Of TData1).V
-  nameWithType: AvlTree<TData>.ANodeLeafe<TData1>.V
-  nameWithType.vb: AvlTree(Of TData).ANodeLeafe(Of TData1).V
-- uid: DataStructures.AvlTree`1.ANodeLeafe`1.V*
-  name: V
-  href: api/DataStructures.AvlTree-1.ANodeLeafe-1.html#DataStructures_AvlTree_1_ANodeLeafe_1_V_
-  commentId: Overload:DataStructures.AvlTree`1.ANodeLeafe`1.V
-  isSpec: "True"
-  fullName: DataStructures.AvlTree<TData>.ANodeLeafe<TData1>.V
-  fullName.vb: DataStructures.AvlTree(Of TData).ANodeLeafe(Of TData1).V
-  nameWithType: AvlTree<TData>.ANodeLeafe<TData1>.V
-  nameWithType.vb: AvlTree(Of TData).ANodeLeafe(Of TData1).V
-- uid: DataStructures.AvlTree`1.ANodeLeafe`1.Value
-  name: Value
-  href: api/DataStructures.AvlTree-1.ANodeLeafe-1.html#DataStructures_AvlTree_1_ANodeLeafe_1_Value
-  commentId: P:DataStructures.AvlTree`1.ANodeLeafe`1.Value
-  fullName: DataStructures.AvlTree<TData>.ANodeLeafe<TData1>.Value
-  fullName.vb: DataStructures.AvlTree(Of TData).ANodeLeafe(Of TData1).Value
-  nameWithType: AvlTree<TData>.ANodeLeafe<TData1>.Value
-  nameWithType.vb: AvlTree(Of TData).ANodeLeafe(Of TData1).Value
-- uid: DataStructures.AvlTree`1.ANodeLeafe`1.Value*
-  name: Value
-  href: api/DataStructures.AvlTree-1.ANodeLeafe-1.html#DataStructures_AvlTree_1_ANodeLeafe_1_Value_
-  commentId: Overload:DataStructures.AvlTree`1.ANodeLeafe`1.Value
-  isSpec: "True"
-  fullName: DataStructures.AvlTree<TData>.ANodeLeafe<TData1>.Value
-  fullName.vb: DataStructures.AvlTree(Of TData).ANodeLeafe(Of TData1).Value
-  nameWithType: AvlTree<TData>.ANodeLeafe<TData1>.Value
-  nameWithType.vb: AvlTree(Of TData).ANodeLeafe(Of TData1).Value
 - uid: DataStructures.AvlTree`1.CalculateBalance(DataStructures.INodeTree{`0})
   name: CalculateBalance(INodeTree<TData>)
   href: api/DataStructures.AvlTree-1.html#DataStructures_AvlTree_1_CalculateBalance_DataStructures_INodeTree__0__
@@ -1376,134 +1376,6 @@ references:
   fullName.vb: DataStructures.BinarySearchTree(Of TData).Add
   nameWithType: BinarySearchTree<TData>.Add
   nameWithType.vb: BinarySearchTree(Of TData).Add
-- uid: DataStructures.BinarySearchTree`1.BNode`1
-  name: BinarySearchTree<TData>.BNode<TData1>
-  href: api/DataStructures.BinarySearchTree-1.BNode-1.html
-  commentId: T:DataStructures.BinarySearchTree`1.BNode`1
-  name.vb: BinarySearchTree(Of TData).BNode(Of TData1)
-  fullName: DataStructures.BinarySearchTree<TData>.BNode<TData1>
-  fullName.vb: DataStructures.BinarySearchTree(Of TData).BNode(Of TData1)
-  nameWithType: BinarySearchTree<TData>.BNode<TData1>
-  nameWithType.vb: BinarySearchTree(Of TData).BNode(Of TData1)
-- uid: DataStructures.BinarySearchTree`1.BNode`1.#ctor(System.IComparable,`1)
-  name: BNode(IComparable, TData1)
-  href: api/DataStructures.BinarySearchTree-1.BNode-1.html#DataStructures_BinarySearchTree_1_BNode_1__ctor_System_IComparable__1_
-  commentId: M:DataStructures.BinarySearchTree`1.BNode`1.#ctor(System.IComparable,`1)
-  fullName: DataStructures.BinarySearchTree<TData>.BNode<TData1>.BNode(System.IComparable, TData1)
-  fullName.vb: DataStructures.BinarySearchTree(Of TData).BNode(Of TData1).BNode(System.IComparable, TData1)
-  nameWithType: BinarySearchTree<TData>.BNode<TData1>.BNode(IComparable, TData1)
-  nameWithType.vb: BinarySearchTree(Of TData).BNode(Of TData1).BNode(IComparable, TData1)
-- uid: DataStructures.BinarySearchTree`1.BNode`1.#ctor*
-  name: BNode
-  href: api/DataStructures.BinarySearchTree-1.BNode-1.html#DataStructures_BinarySearchTree_1_BNode_1__ctor_
-  commentId: Overload:DataStructures.BinarySearchTree`1.BNode`1.#ctor
-  isSpec: "True"
-  fullName: DataStructures.BinarySearchTree<TData>.BNode<TData1>.BNode
-  fullName.vb: DataStructures.BinarySearchTree(Of TData).BNode(Of TData1).BNode
-  nameWithType: BinarySearchTree<TData>.BNode<TData1>.BNode
-  nameWithType.vb: BinarySearchTree(Of TData).BNode(Of TData1).BNode
-- uid: DataStructures.BinarySearchTree`1.BNode`1.AmountofNode
-  name: AmountofNode
-  href: api/DataStructures.BinarySearchTree-1.BNode-1.html#DataStructures_BinarySearchTree_1_BNode_1_AmountofNode
-  commentId: P:DataStructures.BinarySearchTree`1.BNode`1.AmountofNode
-  fullName: DataStructures.BinarySearchTree<TData>.BNode<TData1>.AmountofNode
-  fullName.vb: DataStructures.BinarySearchTree(Of TData).BNode(Of TData1).AmountofNode
-  nameWithType: BinarySearchTree<TData>.BNode<TData1>.AmountofNode
-  nameWithType.vb: BinarySearchTree(Of TData).BNode(Of TData1).AmountofNode
-- uid: DataStructures.BinarySearchTree`1.BNode`1.AmountofNode*
-  name: AmountofNode
-  href: api/DataStructures.BinarySearchTree-1.BNode-1.html#DataStructures_BinarySearchTree_1_BNode_1_AmountofNode_
-  commentId: Overload:DataStructures.BinarySearchTree`1.BNode`1.AmountofNode
-  isSpec: "True"
-  fullName: DataStructures.BinarySearchTree<TData>.BNode<TData1>.AmountofNode
-  fullName.vb: DataStructures.BinarySearchTree(Of TData).BNode(Of TData1).AmountofNode
-  nameWithType: BinarySearchTree<TData>.BNode<TData1>.AmountofNode
-  nameWithType.vb: BinarySearchTree(Of TData).BNode(Of TData1).AmountofNode
-- uid: DataStructures.BinarySearchTree`1.BNode`1.Key
-  name: Key
-  href: api/DataStructures.BinarySearchTree-1.BNode-1.html#DataStructures_BinarySearchTree_1_BNode_1_Key
-  commentId: P:DataStructures.BinarySearchTree`1.BNode`1.Key
-  fullName: DataStructures.BinarySearchTree<TData>.BNode<TData1>.Key
-  fullName.vb: DataStructures.BinarySearchTree(Of TData).BNode(Of TData1).Key
-  nameWithType: BinarySearchTree<TData>.BNode<TData1>.Key
-  nameWithType.vb: BinarySearchTree(Of TData).BNode(Of TData1).Key
-- uid: DataStructures.BinarySearchTree`1.BNode`1.Key*
-  name: Key
-  href: api/DataStructures.BinarySearchTree-1.BNode-1.html#DataStructures_BinarySearchTree_1_BNode_1_Key_
-  commentId: Overload:DataStructures.BinarySearchTree`1.BNode`1.Key
-  isSpec: "True"
-  fullName: DataStructures.BinarySearchTree<TData>.BNode<TData1>.Key
-  fullName.vb: DataStructures.BinarySearchTree(Of TData).BNode(Of TData1).Key
-  nameWithType: BinarySearchTree<TData>.BNode<TData1>.Key
-  nameWithType.vb: BinarySearchTree(Of TData).BNode(Of TData1).Key
-- uid: DataStructures.BinarySearchTree`1.BNode`1.P
-  name: P
-  href: api/DataStructures.BinarySearchTree-1.BNode-1.html#DataStructures_BinarySearchTree_1_BNode_1_P
-  commentId: P:DataStructures.BinarySearchTree`1.BNode`1.P
-  fullName: DataStructures.BinarySearchTree<TData>.BNode<TData1>.P
-  fullName.vb: DataStructures.BinarySearchTree(Of TData).BNode(Of TData1).P
-  nameWithType: BinarySearchTree<TData>.BNode<TData1>.P
-  nameWithType.vb: BinarySearchTree(Of TData).BNode(Of TData1).P
-- uid: DataStructures.BinarySearchTree`1.BNode`1.P*
-  name: P
-  href: api/DataStructures.BinarySearchTree-1.BNode-1.html#DataStructures_BinarySearchTree_1_BNode_1_P_
-  commentId: Overload:DataStructures.BinarySearchTree`1.BNode`1.P
-  isSpec: "True"
-  fullName: DataStructures.BinarySearchTree<TData>.BNode<TData1>.P
-  fullName.vb: DataStructures.BinarySearchTree(Of TData).BNode(Of TData1).P
-  nameWithType: BinarySearchTree<TData>.BNode<TData1>.P
-  nameWithType.vb: BinarySearchTree(Of TData).BNode(Of TData1).P
-- uid: DataStructures.BinarySearchTree`1.BNode`1.U
-  name: U
-  href: api/DataStructures.BinarySearchTree-1.BNode-1.html#DataStructures_BinarySearchTree_1_BNode_1_U
-  commentId: P:DataStructures.BinarySearchTree`1.BNode`1.U
-  fullName: DataStructures.BinarySearchTree<TData>.BNode<TData1>.U
-  fullName.vb: DataStructures.BinarySearchTree(Of TData).BNode(Of TData1).U
-  nameWithType: BinarySearchTree<TData>.BNode<TData1>.U
-  nameWithType.vb: BinarySearchTree(Of TData).BNode(Of TData1).U
-- uid: DataStructures.BinarySearchTree`1.BNode`1.U*
-  name: U
-  href: api/DataStructures.BinarySearchTree-1.BNode-1.html#DataStructures_BinarySearchTree_1_BNode_1_U_
-  commentId: Overload:DataStructures.BinarySearchTree`1.BNode`1.U
-  isSpec: "True"
-  fullName: DataStructures.BinarySearchTree<TData>.BNode<TData1>.U
-  fullName.vb: DataStructures.BinarySearchTree(Of TData).BNode(Of TData1).U
-  nameWithType: BinarySearchTree<TData>.BNode<TData1>.U
-  nameWithType.vb: BinarySearchTree(Of TData).BNode(Of TData1).U
-- uid: DataStructures.BinarySearchTree`1.BNode`1.V
-  name: V
-  href: api/DataStructures.BinarySearchTree-1.BNode-1.html#DataStructures_BinarySearchTree_1_BNode_1_V
-  commentId: P:DataStructures.BinarySearchTree`1.BNode`1.V
-  fullName: DataStructures.BinarySearchTree<TData>.BNode<TData1>.V
-  fullName.vb: DataStructures.BinarySearchTree(Of TData).BNode(Of TData1).V
-  nameWithType: BinarySearchTree<TData>.BNode<TData1>.V
-  nameWithType.vb: BinarySearchTree(Of TData).BNode(Of TData1).V
-- uid: DataStructures.BinarySearchTree`1.BNode`1.V*
-  name: V
-  href: api/DataStructures.BinarySearchTree-1.BNode-1.html#DataStructures_BinarySearchTree_1_BNode_1_V_
-  commentId: Overload:DataStructures.BinarySearchTree`1.BNode`1.V
-  isSpec: "True"
-  fullName: DataStructures.BinarySearchTree<TData>.BNode<TData1>.V
-  fullName.vb: DataStructures.BinarySearchTree(Of TData).BNode(Of TData1).V
-  nameWithType: BinarySearchTree<TData>.BNode<TData1>.V
-  nameWithType.vb: BinarySearchTree(Of TData).BNode(Of TData1).V
-- uid: DataStructures.BinarySearchTree`1.BNode`1.Value
-  name: Value
-  href: api/DataStructures.BinarySearchTree-1.BNode-1.html#DataStructures_BinarySearchTree_1_BNode_1_Value
-  commentId: P:DataStructures.BinarySearchTree`1.BNode`1.Value
-  fullName: DataStructures.BinarySearchTree<TData>.BNode<TData1>.Value
-  fullName.vb: DataStructures.BinarySearchTree(Of TData).BNode(Of TData1).Value
-  nameWithType: BinarySearchTree<TData>.BNode<TData1>.Value
-  nameWithType.vb: BinarySearchTree(Of TData).BNode(Of TData1).Value
-- uid: DataStructures.BinarySearchTree`1.BNode`1.Value*
-  name: Value
-  href: api/DataStructures.BinarySearchTree-1.BNode-1.html#DataStructures_BinarySearchTree_1_BNode_1_Value_
-  commentId: Overload:DataStructures.BinarySearchTree`1.BNode`1.Value
-  isSpec: "True"
-  fullName: DataStructures.BinarySearchTree<TData>.BNode<TData1>.Value
-  fullName.vb: DataStructures.BinarySearchTree(Of TData).BNode(Of TData1).Value
-  nameWithType: BinarySearchTree<TData>.BNode<TData1>.Value
-  nameWithType.vb: BinarySearchTree(Of TData).BNode(Of TData1).Value
 - uid: DataStructures.BinarySearchTree`1.Clear
   name: Clear()
   href: api/DataStructures.BinarySearchTree-1.html#DataStructures_BinarySearchTree_1_Clear
@@ -1564,15 +1436,15 @@ references:
   fullName.vb: DataStructures.BinarySearchTree(Of TData).GetElementAt(System.Int32)
   nameWithType: BinarySearchTree<TData>.GetElementAt(Int32)
   nameWithType.vb: BinarySearchTree(Of TData).GetElementAt(Int32)
-- uid: DataStructures.BinarySearchTree`1.GetElementAt(System.Int32,DataStructures.BinarySearchTree{`0}.BNode{`0})
-  name: GetElementAt(Int32, BinarySearchTree<TData>.BNode<TData>)
-  href: api/DataStructures.BinarySearchTree-1.html#DataStructures_BinarySearchTree_1_GetElementAt_System_Int32_DataStructures_BinarySearchTree__0__BNode__0__
-  commentId: M:DataStructures.BinarySearchTree`1.GetElementAt(System.Int32,DataStructures.BinarySearchTree{`0}.BNode{`0})
-  name.vb: GetElementAt(Int32, BinarySearchTree(Of TData).BNode(Of TData))
-  fullName: DataStructures.BinarySearchTree<TData>.GetElementAt(System.Int32, DataStructures.BinarySearchTree<TData>.BNode<TData>)
-  fullName.vb: DataStructures.BinarySearchTree(Of TData).GetElementAt(System.Int32, DataStructures.BinarySearchTree(Of TData).BNode(Of TData))
-  nameWithType: BinarySearchTree<TData>.GetElementAt(Int32, BinarySearchTree<TData>.BNode<TData>)
-  nameWithType.vb: BinarySearchTree(Of TData).GetElementAt(Int32, BinarySearchTree(Of TData).BNode(Of TData))
+- uid: DataStructures.BinarySearchTree`1.GetElementAt(System.Int32,DataStructures.BstNode{`0})
+  name: GetElementAt(Int32, BstNode<TData>)
+  href: api/DataStructures.BinarySearchTree-1.html#DataStructures_BinarySearchTree_1_GetElementAt_System_Int32_DataStructures_BstNode__0__
+  commentId: M:DataStructures.BinarySearchTree`1.GetElementAt(System.Int32,DataStructures.BstNode{`0})
+  name.vb: GetElementAt(Int32, BstNode(Of TData))
+  fullName: DataStructures.BinarySearchTree<TData>.GetElementAt(System.Int32, DataStructures.BstNode<TData>)
+  fullName.vb: DataStructures.BinarySearchTree(Of TData).GetElementAt(System.Int32, DataStructures.BstNode(Of TData))
+  nameWithType: BinarySearchTree<TData>.GetElementAt(Int32, BstNode<TData>)
+  nameWithType.vb: BinarySearchTree(Of TData).GetElementAt(Int32, BstNode(Of TData))
 - uid: DataStructures.BinarySearchTree`1.GetElementAt*
   name: GetElementAt
   href: api/DataStructures.BinarySearchTree-1.html#DataStructures_BinarySearchTree_1_GetElementAt_
@@ -1722,6 +1594,134 @@ references:
   fullName.vb: DataStructures.BinarySearchTree(Of TData).Successor
   nameWithType: BinarySearchTree<TData>.Successor
   nameWithType.vb: BinarySearchTree(Of TData).Successor
+- uid: DataStructures.BstNode`1
+  name: BstNode<TData>
+  href: api/DataStructures.BstNode-1.html
+  commentId: T:DataStructures.BstNode`1
+  name.vb: BstNode(Of TData)
+  fullName: DataStructures.BstNode<TData>
+  fullName.vb: DataStructures.BstNode(Of TData)
+  nameWithType: BstNode<TData>
+  nameWithType.vb: BstNode(Of TData)
+- uid: DataStructures.BstNode`1.#ctor(System.IComparable,`0)
+  name: BstNode(IComparable, TData)
+  href: api/DataStructures.BstNode-1.html#DataStructures_BstNode_1__ctor_System_IComparable__0_
+  commentId: M:DataStructures.BstNode`1.#ctor(System.IComparable,`0)
+  fullName: DataStructures.BstNode<TData>.BstNode(System.IComparable, TData)
+  fullName.vb: DataStructures.BstNode(Of TData).BstNode(System.IComparable, TData)
+  nameWithType: BstNode<TData>.BstNode(IComparable, TData)
+  nameWithType.vb: BstNode(Of TData).BstNode(IComparable, TData)
+- uid: DataStructures.BstNode`1.#ctor*
+  name: BstNode
+  href: api/DataStructures.BstNode-1.html#DataStructures_BstNode_1__ctor_
+  commentId: Overload:DataStructures.BstNode`1.#ctor
+  isSpec: "True"
+  fullName: DataStructures.BstNode<TData>.BstNode
+  fullName.vb: DataStructures.BstNode(Of TData).BstNode
+  nameWithType: BstNode<TData>.BstNode
+  nameWithType.vb: BstNode(Of TData).BstNode
+- uid: DataStructures.BstNode`1.AmountofNode
+  name: AmountofNode
+  href: api/DataStructures.BstNode-1.html#DataStructures_BstNode_1_AmountofNode
+  commentId: P:DataStructures.BstNode`1.AmountofNode
+  fullName: DataStructures.BstNode<TData>.AmountofNode
+  fullName.vb: DataStructures.BstNode(Of TData).AmountofNode
+  nameWithType: BstNode<TData>.AmountofNode
+  nameWithType.vb: BstNode(Of TData).AmountofNode
+- uid: DataStructures.BstNode`1.AmountofNode*
+  name: AmountofNode
+  href: api/DataStructures.BstNode-1.html#DataStructures_BstNode_1_AmountofNode_
+  commentId: Overload:DataStructures.BstNode`1.AmountofNode
+  isSpec: "True"
+  fullName: DataStructures.BstNode<TData>.AmountofNode
+  fullName.vb: DataStructures.BstNode(Of TData).AmountofNode
+  nameWithType: BstNode<TData>.AmountofNode
+  nameWithType.vb: BstNode(Of TData).AmountofNode
+- uid: DataStructures.BstNode`1.Key
+  name: Key
+  href: api/DataStructures.BstNode-1.html#DataStructures_BstNode_1_Key
+  commentId: P:DataStructures.BstNode`1.Key
+  fullName: DataStructures.BstNode<TData>.Key
+  fullName.vb: DataStructures.BstNode(Of TData).Key
+  nameWithType: BstNode<TData>.Key
+  nameWithType.vb: BstNode(Of TData).Key
+- uid: DataStructures.BstNode`1.Key*
+  name: Key
+  href: api/DataStructures.BstNode-1.html#DataStructures_BstNode_1_Key_
+  commentId: Overload:DataStructures.BstNode`1.Key
+  isSpec: "True"
+  fullName: DataStructures.BstNode<TData>.Key
+  fullName.vb: DataStructures.BstNode(Of TData).Key
+  nameWithType: BstNode<TData>.Key
+  nameWithType.vb: BstNode(Of TData).Key
+- uid: DataStructures.BstNode`1.P
+  name: P
+  href: api/DataStructures.BstNode-1.html#DataStructures_BstNode_1_P
+  commentId: P:DataStructures.BstNode`1.P
+  fullName: DataStructures.BstNode<TData>.P
+  fullName.vb: DataStructures.BstNode(Of TData).P
+  nameWithType: BstNode<TData>.P
+  nameWithType.vb: BstNode(Of TData).P
+- uid: DataStructures.BstNode`1.P*
+  name: P
+  href: api/DataStructures.BstNode-1.html#DataStructures_BstNode_1_P_
+  commentId: Overload:DataStructures.BstNode`1.P
+  isSpec: "True"
+  fullName: DataStructures.BstNode<TData>.P
+  fullName.vb: DataStructures.BstNode(Of TData).P
+  nameWithType: BstNode<TData>.P
+  nameWithType.vb: BstNode(Of TData).P
+- uid: DataStructures.BstNode`1.U
+  name: U
+  href: api/DataStructures.BstNode-1.html#DataStructures_BstNode_1_U
+  commentId: P:DataStructures.BstNode`1.U
+  fullName: DataStructures.BstNode<TData>.U
+  fullName.vb: DataStructures.BstNode(Of TData).U
+  nameWithType: BstNode<TData>.U
+  nameWithType.vb: BstNode(Of TData).U
+- uid: DataStructures.BstNode`1.U*
+  name: U
+  href: api/DataStructures.BstNode-1.html#DataStructures_BstNode_1_U_
+  commentId: Overload:DataStructures.BstNode`1.U
+  isSpec: "True"
+  fullName: DataStructures.BstNode<TData>.U
+  fullName.vb: DataStructures.BstNode(Of TData).U
+  nameWithType: BstNode<TData>.U
+  nameWithType.vb: BstNode(Of TData).U
+- uid: DataStructures.BstNode`1.V
+  name: V
+  href: api/DataStructures.BstNode-1.html#DataStructures_BstNode_1_V
+  commentId: P:DataStructures.BstNode`1.V
+  fullName: DataStructures.BstNode<TData>.V
+  fullName.vb: DataStructures.BstNode(Of TData).V
+  nameWithType: BstNode<TData>.V
+  nameWithType.vb: BstNode(Of TData).V
+- uid: DataStructures.BstNode`1.V*
+  name: V
+  href: api/DataStructures.BstNode-1.html#DataStructures_BstNode_1_V_
+  commentId: Overload:DataStructures.BstNode`1.V
+  isSpec: "True"
+  fullName: DataStructures.BstNode<TData>.V
+  fullName.vb: DataStructures.BstNode(Of TData).V
+  nameWithType: BstNode<TData>.V
+  nameWithType.vb: BstNode(Of TData).V
+- uid: DataStructures.BstNode`1.Value
+  name: Value
+  href: api/DataStructures.BstNode-1.html#DataStructures_BstNode_1_Value
+  commentId: P:DataStructures.BstNode`1.Value
+  fullName: DataStructures.BstNode<TData>.Value
+  fullName.vb: DataStructures.BstNode(Of TData).Value
+  nameWithType: BstNode<TData>.Value
+  nameWithType.vb: BstNode(Of TData).Value
+- uid: DataStructures.BstNode`1.Value*
+  name: Value
+  href: api/DataStructures.BstNode-1.html#DataStructures_BstNode_1_Value_
+  commentId: Overload:DataStructures.BstNode`1.Value
+  isSpec: "True"
+  fullName: DataStructures.BstNode<TData>.Value
+  fullName.vb: DataStructures.BstNode(Of TData).Value
+  nameWithType: BstNode<TData>.Value
+  nameWithType.vb: BstNode(Of TData).Value
 - uid: DataStructures.Edge
   name: Edge
   href: api/DataStructures.Edge.html
