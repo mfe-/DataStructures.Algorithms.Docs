@@ -482,28 +482,6 @@ references:
   isSpec: "True"
   fullName: DataStructures.Algorithms.Graph.GraphExtensions.GenerateGridGraph
   nameWithType: GraphExtensions.GenerateGridGraph
-- uid: DataStructures.Algorithms.Graph.GraphExtensions.GetDataContractSerializerSettings
-  name: GetDataContractSerializerSettings()
-  href: api/DataStructures.Algorithms.Graph.GraphExtensions.html#DataStructures_Algorithms_Graph_GraphExtensions_GetDataContractSerializerSettings
-  commentId: M:DataStructures.Algorithms.Graph.GraphExtensions.GetDataContractSerializerSettings
-  fullName: DataStructures.Algorithms.Graph.GraphExtensions.GetDataContractSerializerSettings()
-  nameWithType: GraphExtensions.GetDataContractSerializerSettings()
-- uid: DataStructures.Algorithms.Graph.GraphExtensions.GetDataContractSerializerSettings(System.Collections.Generic.List{System.Type},System.Runtime.Serialization.DataContractResolver)
-  name: GetDataContractSerializerSettings(List<Type>, DataContractResolver)
-  href: api/DataStructures.Algorithms.Graph.GraphExtensions.html#DataStructures_Algorithms_Graph_GraphExtensions_GetDataContractSerializerSettings_System_Collections_Generic_List_System_Type__System_Runtime_Serialization_DataContractResolver_
-  commentId: M:DataStructures.Algorithms.Graph.GraphExtensions.GetDataContractSerializerSettings(System.Collections.Generic.List{System.Type},System.Runtime.Serialization.DataContractResolver)
-  name.vb: GetDataContractSerializerSettings(List(Of Type), DataContractResolver)
-  fullName: DataStructures.Algorithms.Graph.GraphExtensions.GetDataContractSerializerSettings(System.Collections.Generic.List<System.Type>, System.Runtime.Serialization.DataContractResolver)
-  fullName.vb: DataStructures.Algorithms.Graph.GraphExtensions.GetDataContractSerializerSettings(System.Collections.Generic.List(Of System.Type), System.Runtime.Serialization.DataContractResolver)
-  nameWithType: GraphExtensions.GetDataContractSerializerSettings(List<Type>, DataContractResolver)
-  nameWithType.vb: GraphExtensions.GetDataContractSerializerSettings(List(Of Type), DataContractResolver)
-- uid: DataStructures.Algorithms.Graph.GraphExtensions.GetDataContractSerializerSettings*
-  name: GetDataContractSerializerSettings
-  href: api/DataStructures.Algorithms.Graph.GraphExtensions.html#DataStructures_Algorithms_Graph_GraphExtensions_GetDataContractSerializerSettings_
-  commentId: Overload:DataStructures.Algorithms.Graph.GraphExtensions.GetDataContractSerializerSettings
-  isSpec: "True"
-  fullName: DataStructures.Algorithms.Graph.GraphExtensions.GetDataContractSerializerSettings
-  nameWithType: GraphExtensions.GetDataContractSerializerSettings
 - uid: DataStructures.Algorithms.Graph.GraphExtensions.GetOppositeEdge(DataStructures.IEdge)
   name: GetOppositeEdge(IEdge)
   href: api/DataStructures.Algorithms.Graph.GraphExtensions.html#DataStructures_Algorithms_Graph_GraphExtensions_GetOppositeEdge_DataStructures_IEdge_
@@ -543,37 +521,6 @@ references:
   isSpec: "True"
   fullName: DataStructures.Algorithms.Graph.GraphExtensions.KruskalDepthFirstSearch
   nameWithType: GraphExtensions.KruskalDepthFirstSearch
-- uid: DataStructures.Algorithms.Graph.GraphExtensions.Load(DataStructures.Graph,System.String)
-  name: Load(Graph, String)
-  href: api/DataStructures.Algorithms.Graph.GraphExtensions.html#DataStructures_Algorithms_Graph_GraphExtensions_Load_DataStructures_Graph_System_String_
-  commentId: M:DataStructures.Algorithms.Graph.GraphExtensions.Load(DataStructures.Graph,System.String)
-  fullName: DataStructures.Algorithms.Graph.GraphExtensions.Load(DataStructures.Graph, System.String)
-  nameWithType: GraphExtensions.Load(Graph, String)
-- uid: DataStructures.Algorithms.Graph.GraphExtensions.Load(DataStructures.Graph,System.String,System.Int32,System.Action{System.Runtime.Serialization.DataContractSerializerSettings})
-  name: Load(Graph, String, Int32, Action<DataContractSerializerSettings>)
-  href: api/DataStructures.Algorithms.Graph.GraphExtensions.html#DataStructures_Algorithms_Graph_GraphExtensions_Load_DataStructures_Graph_System_String_System_Int32_System_Action_System_Runtime_Serialization_DataContractSerializerSettings__
-  commentId: M:DataStructures.Algorithms.Graph.GraphExtensions.Load(DataStructures.Graph,System.String,System.Int32,System.Action{System.Runtime.Serialization.DataContractSerializerSettings})
-  name.vb: Load(Graph, String, Int32, Action(Of DataContractSerializerSettings))
-  fullName: DataStructures.Algorithms.Graph.GraphExtensions.Load(DataStructures.Graph, System.String, System.Int32, System.Action<System.Runtime.Serialization.DataContractSerializerSettings>)
-  fullName.vb: DataStructures.Algorithms.Graph.GraphExtensions.Load(DataStructures.Graph, System.String, System.Int32, System.Action(Of System.Runtime.Serialization.DataContractSerializerSettings))
-  nameWithType: GraphExtensions.Load(Graph, String, Int32, Action<DataContractSerializerSettings>)
-  nameWithType.vb: GraphExtensions.Load(Graph, String, Int32, Action(Of DataContractSerializerSettings))
-- uid: DataStructures.Algorithms.Graph.GraphExtensions.Load(System.Xml.Linq.XElement,System.Action{System.Runtime.Serialization.DataContractSerializerSettings})
-  name: Load(XElement, Action<DataContractSerializerSettings>)
-  href: api/DataStructures.Algorithms.Graph.GraphExtensions.html#DataStructures_Algorithms_Graph_GraphExtensions_Load_System_Xml_Linq_XElement_System_Action_System_Runtime_Serialization_DataContractSerializerSettings__
-  commentId: M:DataStructures.Algorithms.Graph.GraphExtensions.Load(System.Xml.Linq.XElement,System.Action{System.Runtime.Serialization.DataContractSerializerSettings})
-  name.vb: Load(XElement, Action(Of DataContractSerializerSettings))
-  fullName: DataStructures.Algorithms.Graph.GraphExtensions.Load(System.Xml.Linq.XElement, System.Action<System.Runtime.Serialization.DataContractSerializerSettings>)
-  fullName.vb: DataStructures.Algorithms.Graph.GraphExtensions.Load(System.Xml.Linq.XElement, System.Action(Of System.Runtime.Serialization.DataContractSerializerSettings))
-  nameWithType: GraphExtensions.Load(XElement, Action<DataContractSerializerSettings>)
-  nameWithType.vb: GraphExtensions.Load(XElement, Action(Of DataContractSerializerSettings))
-- uid: DataStructures.Algorithms.Graph.GraphExtensions.Load*
-  name: Load
-  href: api/DataStructures.Algorithms.Graph.GraphExtensions.html#DataStructures_Algorithms_Graph_GraphExtensions_Load_
-  commentId: Overload:DataStructures.Algorithms.Graph.GraphExtensions.Load
-  isSpec: "True"
-  fullName: DataStructures.Algorithms.Graph.GraphExtensions.Load
-  nameWithType: GraphExtensions.Load
 - uid: DataStructures.Algorithms.Graph.GraphExtensions.ReconstructPath(System.Collections.Generic.IDictionary{System.Guid,DataStructures.IEdge},DataStructures.IVertex)
   name: ReconstructPath(IDictionary<Guid, IEdge>, IVertex)
   href: api/DataStructures.Algorithms.Graph.GraphExtensions.html#DataStructures_Algorithms_Graph_GraphExtensions_ReconstructPath_System_Collections_Generic_IDictionary_System_Guid_DataStructures_IEdge__DataStructures_IVertex_
@@ -590,35 +537,6 @@ references:
   isSpec: "True"
   fullName: DataStructures.Algorithms.Graph.GraphExtensions.ReconstructPath
   nameWithType: GraphExtensions.ReconstructPath
-- uid: DataStructures.Algorithms.Graph.GraphExtensions.Save(DataStructures.Graph,System.Action{System.Runtime.Serialization.DataContractSerializerSettings})
-  name: Save(Graph, Action<DataContractSerializerSettings>)
-  href: api/DataStructures.Algorithms.Graph.GraphExtensions.html#DataStructures_Algorithms_Graph_GraphExtensions_Save_DataStructures_Graph_System_Action_System_Runtime_Serialization_DataContractSerializerSettings__
-  commentId: M:DataStructures.Algorithms.Graph.GraphExtensions.Save(DataStructures.Graph,System.Action{System.Runtime.Serialization.DataContractSerializerSettings})
-  name.vb: Save(Graph, Action(Of DataContractSerializerSettings))
-  fullName: DataStructures.Algorithms.Graph.GraphExtensions.Save(DataStructures.Graph, System.Action<System.Runtime.Serialization.DataContractSerializerSettings>)
-  fullName.vb: DataStructures.Algorithms.Graph.GraphExtensions.Save(DataStructures.Graph, System.Action(Of System.Runtime.Serialization.DataContractSerializerSettings))
-  nameWithType: GraphExtensions.Save(Graph, Action<DataContractSerializerSettings>)
-  nameWithType.vb: GraphExtensions.Save(Graph, Action(Of DataContractSerializerSettings))
-- uid: DataStructures.Algorithms.Graph.GraphExtensions.Save*
-  name: Save
-  href: api/DataStructures.Algorithms.Graph.GraphExtensions.html#DataStructures_Algorithms_Graph_GraphExtensions_Save_
-  commentId: Overload:DataStructures.Algorithms.Graph.GraphExtensions.Save
-  isSpec: "True"
-  fullName: DataStructures.Algorithms.Graph.GraphExtensions.Save
-  nameWithType: GraphExtensions.Save
-- uid: DataStructures.Algorithms.Graph.GraphExtensions.Serialize(DataStructures.IVertex,System.String)
-  name: Serialize(IVertex, String)
-  href: api/DataStructures.Algorithms.Graph.GraphExtensions.html#DataStructures_Algorithms_Graph_GraphExtensions_Serialize_DataStructures_IVertex_System_String_
-  commentId: M:DataStructures.Algorithms.Graph.GraphExtensions.Serialize(DataStructures.IVertex,System.String)
-  fullName: DataStructures.Algorithms.Graph.GraphExtensions.Serialize(DataStructures.IVertex, System.String)
-  nameWithType: GraphExtensions.Serialize(IVertex, String)
-- uid: DataStructures.Algorithms.Graph.GraphExtensions.Serialize*
-  name: Serialize
-  href: api/DataStructures.Algorithms.Graph.GraphExtensions.html#DataStructures_Algorithms_Graph_GraphExtensions_Serialize_
-  commentId: Overload:DataStructures.Algorithms.Graph.GraphExtensions.Serialize
-  isSpec: "True"
-  fullName: DataStructures.Algorithms.Graph.GraphExtensions.Serialize
-  nameWithType: GraphExtensions.Serialize
 - uid: DataStructures.Algorithms.Graph.GraphExtensions.Sort(System.Collections.Generic.IEnumerable{DataStructures.IVertex})
   name: Sort(IEnumerable<IVertex>)
   href: api/DataStructures.Algorithms.Graph.GraphExtensions.html#DataStructures_Algorithms_Graph_GraphExtensions_Sort_System_Collections_Generic_IEnumerable_DataStructures_IVertex__
@@ -651,38 +569,6 @@ references:
   isSpec: "True"
   fullName: DataStructures.Algorithms.Graph.GraphExtensions.ToVertexList
   nameWithType: GraphExtensions.ToVertexList
-- uid: DataStructures.Algorithms.Graph.GraphExtensions.VertexSerializationSurrogate
-  name: GraphExtensions.VertexSerializationSurrogate
-  href: api/DataStructures.Algorithms.Graph.GraphExtensions.VertexSerializationSurrogate.html
-  commentId: T:DataStructures.Algorithms.Graph.GraphExtensions.VertexSerializationSurrogate
-  fullName: DataStructures.Algorithms.Graph.GraphExtensions.VertexSerializationSurrogate
-  nameWithType: GraphExtensions.VertexSerializationSurrogate
-- uid: DataStructures.Algorithms.Graph.GraphExtensions.VertexSerializationSurrogate.GetObjectData(System.Object,System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-  name: GetObjectData(Object, SerializationInfo, StreamingContext)
-  href: api/DataStructures.Algorithms.Graph.GraphExtensions.VertexSerializationSurrogate.html#DataStructures_Algorithms_Graph_GraphExtensions_VertexSerializationSurrogate_GetObjectData_System_Object_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_
-  commentId: M:DataStructures.Algorithms.Graph.GraphExtensions.VertexSerializationSurrogate.GetObjectData(System.Object,System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-  fullName: DataStructures.Algorithms.Graph.GraphExtensions.VertexSerializationSurrogate.GetObjectData(System.Object, System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
-  nameWithType: GraphExtensions.VertexSerializationSurrogate.GetObjectData(Object, SerializationInfo, StreamingContext)
-- uid: DataStructures.Algorithms.Graph.GraphExtensions.VertexSerializationSurrogate.GetObjectData*
-  name: GetObjectData
-  href: api/DataStructures.Algorithms.Graph.GraphExtensions.VertexSerializationSurrogate.html#DataStructures_Algorithms_Graph_GraphExtensions_VertexSerializationSurrogate_GetObjectData_
-  commentId: Overload:DataStructures.Algorithms.Graph.GraphExtensions.VertexSerializationSurrogate.GetObjectData
-  isSpec: "True"
-  fullName: DataStructures.Algorithms.Graph.GraphExtensions.VertexSerializationSurrogate.GetObjectData
-  nameWithType: GraphExtensions.VertexSerializationSurrogate.GetObjectData
-- uid: DataStructures.Algorithms.Graph.GraphExtensions.VertexSerializationSurrogate.SetObjectData(System.Object,System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext,System.Runtime.Serialization.ISurrogateSelector)
-  name: SetObjectData(Object, SerializationInfo, StreamingContext, ISurrogateSelector)
-  href: api/DataStructures.Algorithms.Graph.GraphExtensions.VertexSerializationSurrogate.html#DataStructures_Algorithms_Graph_GraphExtensions_VertexSerializationSurrogate_SetObjectData_System_Object_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_System_Runtime_Serialization_ISurrogateSelector_
-  commentId: M:DataStructures.Algorithms.Graph.GraphExtensions.VertexSerializationSurrogate.SetObjectData(System.Object,System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext,System.Runtime.Serialization.ISurrogateSelector)
-  fullName: DataStructures.Algorithms.Graph.GraphExtensions.VertexSerializationSurrogate.SetObjectData(System.Object, System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext, System.Runtime.Serialization.ISurrogateSelector)
-  nameWithType: GraphExtensions.VertexSerializationSurrogate.SetObjectData(Object, SerializationInfo, StreamingContext, ISurrogateSelector)
-- uid: DataStructures.Algorithms.Graph.GraphExtensions.VertexSerializationSurrogate.SetObjectData*
-  name: SetObjectData
-  href: api/DataStructures.Algorithms.Graph.GraphExtensions.VertexSerializationSurrogate.html#DataStructures_Algorithms_Graph_GraphExtensions_VertexSerializationSurrogate_SetObjectData_
-  commentId: Overload:DataStructures.Algorithms.Graph.GraphExtensions.VertexSerializationSurrogate.SetObjectData
-  isSpec: "True"
-  fullName: DataStructures.Algorithms.Graph.GraphExtensions.VertexSerializationSurrogate.SetObjectData
-  nameWithType: GraphExtensions.VertexSerializationSurrogate.SetObjectData
 - uid: DataStructures.Algorithms.Graph.VertexEdgeMapResolver
   name: VertexEdgeMapResolver
   href: api/DataStructures.Algorithms.Graph.VertexEdgeMapResolver.html
@@ -731,6 +617,65 @@ references:
   isSpec: "True"
   fullName: DataStructures.Algorithms.Graph.VertexEdgeMapResolver.TryResolveType
   nameWithType: VertexEdgeMapResolver.TryResolveType
+- uid: DataStructures.Algorithms.Graph.Xml
+  name: DataStructures.Algorithms.Graph.Xml
+  href: api/DataStructures.Algorithms.Graph.Xml.html
+  commentId: N:DataStructures.Algorithms.Graph.Xml
+  fullName: DataStructures.Algorithms.Graph.Xml
+  nameWithType: DataStructures.Algorithms.Graph.Xml
+- uid: DataStructures.Algorithms.Graph.Xml.GraphExtensionsXml
+  name: GraphExtensionsXml
+  href: api/DataStructures.Algorithms.Graph.Xml.GraphExtensionsXml.html
+  commentId: T:DataStructures.Algorithms.Graph.Xml.GraphExtensionsXml
+  fullName: DataStructures.Algorithms.Graph.Xml.GraphExtensionsXml
+  nameWithType: GraphExtensionsXml
+- uid: DataStructures.Algorithms.Graph.Xml.GraphExtensionsXml.Load(DataStructures.Graph,System.String)
+  name: Load(Graph, String)
+  href: api/DataStructures.Algorithms.Graph.Xml.GraphExtensionsXml.html#DataStructures_Algorithms_Graph_Xml_GraphExtensionsXml_Load_DataStructures_Graph_System_String_
+  commentId: M:DataStructures.Algorithms.Graph.Xml.GraphExtensionsXml.Load(DataStructures.Graph,System.String)
+  fullName: DataStructures.Algorithms.Graph.Xml.GraphExtensionsXml.Load(DataStructures.Graph, System.String)
+  nameWithType: GraphExtensionsXml.Load(Graph, String)
+- uid: DataStructures.Algorithms.Graph.Xml.GraphExtensionsXml.Load(DataStructures.Graph,System.String,System.Int32,System.Action{System.Runtime.Serialization.DataContractSerializerSettings})
+  name: Load(Graph, String, Int32, Action<DataContractSerializerSettings>)
+  href: api/DataStructures.Algorithms.Graph.Xml.GraphExtensionsXml.html#DataStructures_Algorithms_Graph_Xml_GraphExtensionsXml_Load_DataStructures_Graph_System_String_System_Int32_System_Action_System_Runtime_Serialization_DataContractSerializerSettings__
+  commentId: M:DataStructures.Algorithms.Graph.Xml.GraphExtensionsXml.Load(DataStructures.Graph,System.String,System.Int32,System.Action{System.Runtime.Serialization.DataContractSerializerSettings})
+  name.vb: Load(Graph, String, Int32, Action(Of DataContractSerializerSettings))
+  fullName: DataStructures.Algorithms.Graph.Xml.GraphExtensionsXml.Load(DataStructures.Graph, System.String, System.Int32, System.Action<System.Runtime.Serialization.DataContractSerializerSettings>)
+  fullName.vb: DataStructures.Algorithms.Graph.Xml.GraphExtensionsXml.Load(DataStructures.Graph, System.String, System.Int32, System.Action(Of System.Runtime.Serialization.DataContractSerializerSettings))
+  nameWithType: GraphExtensionsXml.Load(Graph, String, Int32, Action<DataContractSerializerSettings>)
+  nameWithType.vb: GraphExtensionsXml.Load(Graph, String, Int32, Action(Of DataContractSerializerSettings))
+- uid: DataStructures.Algorithms.Graph.Xml.GraphExtensionsXml.Load(System.Xml.Linq.XElement,System.Action{System.Runtime.Serialization.DataContractSerializerSettings})
+  name: Load(XElement, Action<DataContractSerializerSettings>)
+  href: api/DataStructures.Algorithms.Graph.Xml.GraphExtensionsXml.html#DataStructures_Algorithms_Graph_Xml_GraphExtensionsXml_Load_System_Xml_Linq_XElement_System_Action_System_Runtime_Serialization_DataContractSerializerSettings__
+  commentId: M:DataStructures.Algorithms.Graph.Xml.GraphExtensionsXml.Load(System.Xml.Linq.XElement,System.Action{System.Runtime.Serialization.DataContractSerializerSettings})
+  name.vb: Load(XElement, Action(Of DataContractSerializerSettings))
+  fullName: DataStructures.Algorithms.Graph.Xml.GraphExtensionsXml.Load(System.Xml.Linq.XElement, System.Action<System.Runtime.Serialization.DataContractSerializerSettings>)
+  fullName.vb: DataStructures.Algorithms.Graph.Xml.GraphExtensionsXml.Load(System.Xml.Linq.XElement, System.Action(Of System.Runtime.Serialization.DataContractSerializerSettings))
+  nameWithType: GraphExtensionsXml.Load(XElement, Action<DataContractSerializerSettings>)
+  nameWithType.vb: GraphExtensionsXml.Load(XElement, Action(Of DataContractSerializerSettings))
+- uid: DataStructures.Algorithms.Graph.Xml.GraphExtensionsXml.Load*
+  name: Load
+  href: api/DataStructures.Algorithms.Graph.Xml.GraphExtensionsXml.html#DataStructures_Algorithms_Graph_Xml_GraphExtensionsXml_Load_
+  commentId: Overload:DataStructures.Algorithms.Graph.Xml.GraphExtensionsXml.Load
+  isSpec: "True"
+  fullName: DataStructures.Algorithms.Graph.Xml.GraphExtensionsXml.Load
+  nameWithType: GraphExtensionsXml.Load
+- uid: DataStructures.Algorithms.Graph.Xml.GraphExtensionsXml.Save(DataStructures.Graph,System.Action{System.Runtime.Serialization.DataContractSerializerSettings})
+  name: Save(Graph, Action<DataContractSerializerSettings>)
+  href: api/DataStructures.Algorithms.Graph.Xml.GraphExtensionsXml.html#DataStructures_Algorithms_Graph_Xml_GraphExtensionsXml_Save_DataStructures_Graph_System_Action_System_Runtime_Serialization_DataContractSerializerSettings__
+  commentId: M:DataStructures.Algorithms.Graph.Xml.GraphExtensionsXml.Save(DataStructures.Graph,System.Action{System.Runtime.Serialization.DataContractSerializerSettings})
+  name.vb: Save(Graph, Action(Of DataContractSerializerSettings))
+  fullName: DataStructures.Algorithms.Graph.Xml.GraphExtensionsXml.Save(DataStructures.Graph, System.Action<System.Runtime.Serialization.DataContractSerializerSettings>)
+  fullName.vb: DataStructures.Algorithms.Graph.Xml.GraphExtensionsXml.Save(DataStructures.Graph, System.Action(Of System.Runtime.Serialization.DataContractSerializerSettings))
+  nameWithType: GraphExtensionsXml.Save(Graph, Action<DataContractSerializerSettings>)
+  nameWithType.vb: GraphExtensionsXml.Save(Graph, Action(Of DataContractSerializerSettings))
+- uid: DataStructures.Algorithms.Graph.Xml.GraphExtensionsXml.Save*
+  name: Save
+  href: api/DataStructures.Algorithms.Graph.Xml.GraphExtensionsXml.html#DataStructures_Algorithms_Graph_Xml_GraphExtensionsXml_Save_
+  commentId: Overload:DataStructures.Algorithms.Graph.Xml.GraphExtensionsXml.Save
+  isSpec: "True"
+  fullName: DataStructures.Algorithms.Graph.Xml.GraphExtensionsXml.Save
+  nameWithType: GraphExtensionsXml.Save
 - uid: DataStructures.Algorithms.Search
   name: Search
   href: api/DataStructures.Algorithms.Search.html
