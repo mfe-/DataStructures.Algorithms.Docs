@@ -3380,12 +3380,6 @@ references:
   commentId: M:DataStructures.UI.GraphControl.SetFocus(DataStructures.IEdge)
   fullName: DataStructures.UI.GraphControl.SetFocus(DataStructures.IEdge)
   nameWithType: GraphControl.SetFocus(IEdge)
-- uid: DataStructures.UI.GraphControl.SetFocus(DataStructures.IEdge,System.AsyncCallback)
-  name: SetFocus(IEdge, AsyncCallback)
-  href: api/DataStructures.UI.GraphControl.html#DataStructures_UI_GraphControl_SetFocus_DataStructures_IEdge_System_AsyncCallback_
-  commentId: M:DataStructures.UI.GraphControl.SetFocus(DataStructures.IEdge,System.AsyncCallback)
-  fullName: DataStructures.UI.GraphControl.SetFocus(DataStructures.IEdge, System.AsyncCallback)
-  nameWithType: GraphControl.SetFocus(IEdge, AsyncCallback)
 - uid: DataStructures.UI.GraphControl.SetFocus(DataStructures.IVertex)
   name: SetFocus(IVertex)
   href: api/DataStructures.UI.GraphControl.html#DataStructures_UI_GraphControl_SetFocus_DataStructures_IVertex_
